@@ -16,7 +16,7 @@
   Давайте беречь наш код и работать аккуратно!
 
   Для начала работы вам надо загрузить мое сохранение с гитхаба
-  Скачиваем файл ... и вставляем его по пути C:\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program\saves
+  Скачиваем файл ВАРКТ МАИ 2026 и вставляем его по пути C:\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program\saves
   
   Так же вы можете увидеть два файла с названием ШАТТЛ.craft ШАТТЛ.loadmeta это есть крафт спейс шаттла из игры. 
   Чтобы он появился у вас в цеху вертикальной сборки нужно скачать эти файлы и закинуть и по пути C:\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program\saves\ВАРКТ МАИ 2026\Ships\SPH
