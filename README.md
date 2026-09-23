@@ -1,5 +1,5 @@
 
-# ⚠️ ВАЖНО: **(Если нужна помощь с Kerbal Space Programm пишите в тг @TimofeyZadirako)**
+# ⚠️ ВАЖНО: **(Если нужна помощь с Kerbal Space Program пишите в тг @TimofeyZadirako)**
 
 
 
