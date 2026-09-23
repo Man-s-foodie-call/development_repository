@@ -2,7 +2,7 @@ ship = ШАТТЛ
 version = 1.12.5
 description = 
 type = VAB
-size = 12.2028437,28.27948,13.8360882
+size = 12.2029238,28.27948,13.8360968
 steamPublishedFileId = 0
 persistentId = 3787899231
 rot = 0,0,0,0
@@ -76,6 +76,22 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	RESOURCE
 	{
@@ -185,13 +201,29 @@ PART
 	PARTDATA
 	{
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = wingShuttleRudder_4293789218
 	partName = Part
 	persistentId = 1654898814
-	pos = -4.15648794,3.90701008,-0.0708324537
+	pos = -4.15649176,3.90701008,-0.0708324537
 	attPos = 3.9958627E-07,0.611405849,-8.58306885E-06
 	attPos0 = -1.61167847E-07,-1.58316755,-1.84354258
 	rot = 0,0,3.37174811E-07,1.00000012
@@ -357,14 +389,30 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = mk2SpacePlaneAdapter_4293782134
 	partName = Part
 	persistentId = 832381418
-	pos = -2.15545344,4.87425709,1.83537519
-	attPos = 0.41927743,-0.374134779,0.157468557
+	pos = -3.11292458,4.87877178,1.52917278
+	attPos = 0.72547996,-0.369620085,-0.800000787
 	attPos0 = -2.32548046,0.369620085,0
 	rot = 0.98140049,8.69362111E-08,0.191972256,-2.34328468E-09
 	attRot = 0.135512248,-2.37347457E-08,-0.990775764,-1.80233304E-08
@@ -449,6 +497,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = LiquidFuel
@@ -477,7 +541,7 @@ PART
 	part = mk2SpacePlaneAdapter_4293781484
 	partName = Part
 	persistentId = 828757471
-	pos = -2.15545344,6.74926758,1.83537519
+	pos = -3.11292458,6.7537899,1.52917278
 	attPos = 3.97286044E-07,-3.57627869E-06,1.50234257E-07
 	attPos0 = -7.90252841E-08,-1.87499928,-7.90252699E-08
 	rot = 1.11057098E-07,0.981400371,4.96534369E-10,0.191972733
@@ -559,6 +623,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = LiquidFuel
@@ -587,7 +667,7 @@ PART
 	part = liquidEngine3.v2_4293767076
 	partName = Part
 	persistentId = 2521299711
-	pos = -2.15545249,3.93668365,1.83539224
+	pos = -3.11292458,3.94119835,1.52919269
 	attPos = 0,0,0
 	attPos0 = 3.95128339E-08,0.937504172,3.95128268E-08
 	rot = 9.3386781E-08,0.558209896,-3.00091543E-08,0.829699874
@@ -610,7 +690,7 @@ PART
 	modSize = 0,0,0
 	sym = liquidEngine3.v2_4293760654
 	attN = top,mk2SpacePlaneAdapter_4293782134_0|0|0_0|1|0_0|0|0_0|1|0
-	attN = bottom,Null_0_0|-0.817809999|0_0|-1|0_0|-0.817809999|0_0|-1|0
+	attN = bottom,Null_0_0|-0.800000012|0_0|-1|0_0|-0.800000012|0_0|-1|0
 	EVENTS
 	{
 	}
@@ -761,7 +841,7 @@ PART
 	{
 		name = ModuleJettison
 		isEnabled = True
-		activejettisonName = ShortShroud
+		activejettisonName = TallShroud
 		isJettisoned = True
 		shroudHideOverride = False
 		stagingEnabled = True
@@ -816,6 +896,7 @@ PART
 		isEnabled = True
 		useVariantMass = True
 		stagingEnabled = True
+		selectedVariant = TrussMount
 		EVENTS
 		{
 		}
@@ -860,16 +941,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = mk2SpacePlaneAdapter_4293760800
 	partName = Part
 	persistentId = 2945005097
-	pos = -2.15545392,4.87425709,-1.97703755
-	attPos = -0.419277906,-0.374134779,0.157468557
+	pos = -3.11292481,4.87877178,-1.67083585
+	attPos = -0.725479484,-0.369620085,-0.800000668
 	attPos0 = 2.32548046,0.369620085,0
-	rot = 0.191972315,2.34327402E-09,0.98140043,-8.69361969E-08
+	rot = 0.191972375,2.34327402E-09,0.981400371,-8.69361969E-08
 	attRot = 0.191972271,4.37062013E-08,0.981400371,-7.88451686E-08
 	attRot0 = 0.558209956,-6.31301162E-08,-0.829699755,5.98162302E-08
 	mir = 1,1,1
@@ -952,6 +1049,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = LiquidFuel
@@ -980,10 +1093,10 @@ PART
 	part = mk2SpacePlaneAdapter_4293760754
 	partName = Part
 	persistentId = 3122130721
-	pos = -2.15545392,6.74925995,-1.97703755
-	attPos = 0,0,0
+	pos = -3.11292481,6.7537756,-1.67083585
+	attPos = -2.39235249E-07,-3.09944153E-06,1.50234229E-07
 	attPos0 = -7.90252841E-08,-1.87499928,-7.90252699E-08
-	rot = -4.96530816E-10,0.191972762,-1.1105702E-07,0.981400371
+	rot = -4.96577002E-10,0.191972822,-1.11057169E-07,0.981400251
 	attRot = 0,-0.707106709,0,-0.707106709
 	attRot0 = 0,-2.10734239E-08,1,2.10734239E-08
 	mir = 1,1,1
@@ -1062,6 +1175,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = LiquidFuel
@@ -1090,10 +1219,10 @@ PART
 	part = liquidEngine3.v2_4293760654
 	partName = Part
 	persistentId = 524109267
-	pos = -2.15545559,3.93668365,-1.9770546
+	pos = -3.11292529,3.94119835,-1.67085588
 	attPos = 0,0,0
 	attPos0 = 3.95128339E-08,0.937504172,3.95128268E-08
-	rot = 3.00091685E-08,0.829699874,-9.33868236E-08,0.558210135
+	rot = 3.00090122E-08,0.829699874,-9.33866673E-08,0.558209896
 	attRot = 0,0,0,1
 	attRot0 = -0.707106829,2.98023224E-08,-0.707106829,0
 	mir = 1,1,1
@@ -1113,7 +1242,7 @@ PART
 	modSize = 0,0,0
 	sym = liquidEngine3.v2_4293767076
 	attN = top,mk2SpacePlaneAdapter_4293760800_0|0|0_0|1|0_0|0|0_0|1|0
-	attN = bottom,Null_0_0|-0.817809999|0_0|-1|0_0|-0.817809999|0_0|-1|0
+	attN = bottom,Null_0_0|-0.800000012|0_0|-1|0_0|-0.800000012|0_0|-1|0
 	EVENTS
 	{
 	}
@@ -1256,7 +1385,7 @@ PART
 	{
 		name = ModuleJettison
 		isEnabled = True
-		activejettisonName = ShortShroud
+		activejettisonName = TallShroud
 		isJettisoned = True
 		shroudHideOverride = False
 		stagingEnabled = True
@@ -1311,6 +1440,7 @@ PART
 		isEnabled = True
 		useVariantMass = True
 		stagingEnabled = True
+		selectedVariant = TrussMount
 		EVENTS
 		{
 		}
@@ -1355,13 +1485,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = SSME_4293758412
 	partName = Part
 	persistentId = 753411947
-	pos = -1.71291769,4.47876453,0.729183853
+	pos = -1.71291673,4.47876453,0.72918576
 	attPos = -0.269037366,0.068746537,0.0690373778
 	attPos0 = -0.530962646,-0.468754113,0.530962586
 	rot = -0.092295967,-0.701057434,0.0922959819,-0.701057434
@@ -1616,13 +1762,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = SSME_4293752872
 	partName = Part
 	persistentId = 2610826023
-	pos = -1.71291816,4.47876453,-0.870845795
+	pos = -1.71291721,4.47876453,-0.870847702
 	attPos = 0.269037366,0.0687427223,0.0690373778
 	attPos0 = 0.530962646,-0.468754113,0.530962586
 	rot = 0.0922960043,0.701057374,-0.0922960639,0.701057494
@@ -1869,13 +2031,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = wingConnector5_4293749896
 	partName = Part
 	persistentId = 3436411807
-	pos = -1.00795233,4.21894836,-0.0708304271
+	pos = -1.00795043,4.21894836,-0.0708304271
 	attPos = 0,0.421544671,-0.00562489033
 	attPos0 = 0,-1.08136952,1.31058609
 	rot = 0.70710516,-0.00155298517,-0.70710516,-0.00155298517
@@ -1956,16 +2134,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = wingConnector5_4293749570
 	partName = Part
 	persistentId = 79703720
-	pos = -1.00795233,4.21894455,-0.0708304271
+	pos = -1.00795043,4.21894455,-0.0708304271
 	attPos = 8.76295712E-16,0.421540856,-0.00562489033
 	attPos0 = -2.38884742E-15,-1.08136952,1.31058609
-	rot = 0.7071051,-0.00155295769,0.707105219,0.00155291578
+	rot = 0.7071051,-0.00155295606,0.707105219,0.00155291415
 	attRot = 0.49999994,0.49999994,0.49999994,-0.49999994
 	attRot0 = 4.35450751E-08,0.0871498808,-0.996195197,-3.80943943E-09
 	mir = 1,1,1
@@ -2043,13 +2237,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = wingShuttleElevon1_4293748772
 	partName = Part
 	persistentId = 111630112
-	pos = -1.01001358,3.75019646,0.580210268
+	pos = -1.01001167,3.75019646,0.580211222
 	attPos = 0,0,0
 	attPos0 = -0.651031733,0.468754411,-1.65309828E-08
 	rot = 0.00155281625,0.70710516,-0.00155281625,0.70710516
@@ -2234,16 +2444,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = wingShuttleElevon1_4293748540
 	partName = Part
 	persistentId = 3735448624
-	pos = -1.01001096,3.7501936,-0.721869648
+	pos = -1.01000905,3.7501936,-0.721870601
 	attPos = 0,0,0
 	attPos0 = -0.651031733,0.468750477,-8.45175663E-08
-	rot = -0.00155293825,-0.7071051,-0.00155293825,0.707105219
+	rot = -0.00155293697,-0.7071051,-0.00155293697,0.707105219
 	attRot = 0,0,0,1
 	attRot0 = -1,4.23272486E-15,-8.74227837E-08,1.19209275E-07
 	mir = 1,1,1
@@ -2417,13 +2643,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = wingConnector4_4293739296
 	partName = Part
 	persistentId = 2483347189
-	pos = -1.12077153,5.52464581,1.03653014
+	pos = -1.12076962,5.52464581,1.03653204
 	attPos = 0.177253723,-1.93119049E-05,-0.0924606323
 	attPos0 = -1.28460002,-1.07286143,1.28460026
 	rot = -2.00197519E-07,0.703809619,-7.37569721E-08,0.71038866
@@ -2504,13 +2746,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = wingConnector4_4293738722
 	partName = Part
 	persistentId = 1884658929
-	pos = -1.12077165,5.52464962,-1.17819107
+	pos = -1.12076974,5.52464962,-1.17819297
 	attPos = -0.177253723,-1.54972076E-05,-0.0924606323
 	attPos0 = 1.28460002,-1.07286143,1.28460026
 	rot = 1.79124143E-07,-0.703809559,-1.15903831E-07,0.71038872
@@ -2591,13 +2849,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = wingConnector4_4293738542
 	partName = Part
 	persistentId = 2530683250
-	pos = -1.12788403,7.39991474,0.934905708
+	pos = -1.12788212,7.39991474,0.934907615
 	attPos = 0.276268125,-3.9935112E-06,-0.0969629288
 	attPos0 = -1.28198993,0.802337825,1.2819891
 	rot = 0,0.707106888,-2.52881108E-07,0.707106769
@@ -2678,13 +2952,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = wingConnector4_4293738430
 	partName = Part
 	persistentId = 2428044056
-	pos = -1.1278851,7.39991856,-1.07656658
+	pos = -1.1278832,7.39991856,-1.07656848
 	attPos = -0.276268125,-2.08616257E-06,-0.0969629288
 	attPos0 = 1.28198993,0.802337825,1.2819891
 	rot = 1.58050696E-07,-0.707106829,-1.58050696E-07,0.707106829
@@ -2765,13 +3055,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = wingShuttleDelta_4293738252
 	partName = Part
 	persistentId = 1375218742
-	pos = -0.988924623,6.60161304,1.87436438
+	pos = -0.988921762,6.60161304,1.87436914
 	attPos = 1.1920929E-07,-1.71065331E-05,0.138956219
 	attPos0 = -0.939435959,-0.798234403,5.06639424E-07
 	rot = -4.21468513E-08,0.707106948,-2.95027917E-07,0.707106709
@@ -2837,6 +3143,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = LiquidFuel
@@ -2854,7 +3176,7 @@ PART
 	part = wingShuttleDelta_4293737734
 	partName = Part
 	persistentId = 3279022430
-	pos = -0.98892796,6.60161686,-2.01601624
+	pos = -0.988926053,6.60161686,-2.01602006
 	attPos = 9.53674316E-07,-1.13248825E-05,-0.13895604
 	attPos0 = -0.939436555,-0.798234403,-9.53674544E-07
 	rot = 1.5805071E-07,-0.707106948,-1.5805071E-07,0.707106709
@@ -2920,6 +3242,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = LiquidFuel
@@ -2937,7 +3275,7 @@ PART
 	part = wingShuttleElevon2_4293727700
 	partName = Part
 	persistentId = 65714463
-	pos = -0.988928914,4.79313374,3.33221197
+	pos = -0.988928914,4.79313374,3.3322196
 	attPos = 0,-0.0420322418,6.46710646E-07
 	attPos0 = -1.45781827,-1.76644838,4.36230181E-07
 	rot = 0.0148725379,0.706950665,0.0148718208,0.706950307
@@ -3122,16 +3460,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = wingShuttleElevon2_4293727464
 	partName = Part
 	persistentId = 1284324631
-	pos = -0.98892653,4.79312992,-3.47386599
+	pos = -0.988924623,4.79312992,-3.47387362
 	attPos = 0,-0.0420436859,2.27703367E-09
 	attPos0 = -1.45781803,-1.76644456,-5.63676963E-07
-	rot = -0.0148725724,-0.706950665,0.014871561,0.706950307
+	rot = -0.0148725621,-0.706950665,0.0148715507,0.706950307
 	attRot = 0,0,0,1
 	attRot0 = -2.69889568E-08,-7.39538777E-08,0.021032678,0.999778867
 	mir = 1,1,1
@@ -3305,13 +3659,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = wingShuttleElevon1_4293726992
 	partName = Part
 	persistentId = 2058270202
-	pos = -0.988938451,4.63109875,5.52809858
+	pos = -0.988938451,4.63109875,5.52810621
 	attPos = 0,0,0
 	attPos0 = -3.65371275,-1.9705168,6.10484676E-07
 	rot = 0.0148725379,0.706950665,0.0148718208,0.706950307
@@ -3496,13 +3866,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = wingShuttleElevon1_4293726834
 	partName = Part
 	persistentId = 3914656654
-	pos = -0.988931775,4.63110256,-5.66976213
+	pos = -0.988931775,4.63110256,-5.66976976
 	attPos = 0,0,0
 	attPos0 = -3.65371227,-1.97051489,-9.29902683E-07
 	rot = -0.0148721877,-0.706950545,0.0148720182,0.706950426
@@ -3679,13 +4065,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = GearMedium_4293707144
 	partName = Part
 	persistentId = 285078809
-	pos = -1.03123736,6.29737568,1.49045432
+	pos = -1.0312345,6.29737568,1.49045908
 	attPos = 0,0,0
 	attPos0 = -0.453049242,0.772730827,0.0937503278
 	rot = 0.502320886,-0.497668505,-0.497668833,-0.502320349
@@ -4058,13 +4460,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = GearMedium_4293703046
 	partName = Part
 	persistentId = 2127039586
-	pos = -1.03123963,6.29737568,-1.63210201
+	pos = -1.03123772,6.29737568,-1.63210487
 	attPos = 0,0,0
 	attPos0 = -0.453049153,0.772727013,-0.0937502086
 	rot = 0.497668862,-0.50232023,-0.502321005,-0.497668415
@@ -4413,13 +4831,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = strutConnector_4293561750
 	partName = CompoundPart
 	persistentId = 2902004559
-	pos = -1.17624319,5.47620106,2.19881868
+	pos = -1.17624009,5.47620106,2.19882488
 	attPos = 0,0,0
 	attPos0 = -0.324443996,-1.12535799,-0.187318444
 	rot = 0.00567844696,0.499967873,0.00983501039,0.865969598
@@ -4472,9 +4906,9 @@ PART
 	{
 		tgt = 4293795908
 		tpersID = 4170581131
-		pos = 0.381924897,-0.190659061,-0.622732282
-		rot = 6.48919851E-09,0.965127409,-0.0379665159,-0.259035975
-		dir = 0.50586611,-0.252531201,-0.824819624
+		pos = 0.38192448,-0.190659046,-0.622731149
+		rot = 6.14161255E-09,0.965127707,-0.037966527,-0.259036034
+		dir = 0.505866349,-0.252531588,-0.824819446
 		col = AdapterCOL1
 	}
 	MODULE
@@ -4541,13 +4975,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = strutConnector_4293559454
 	partName = CompoundPart
 	persistentId = 229154097
-	pos = -1.1762408,5.47620106,-2.34047842
+	pos = -1.1762377,5.47620106,-2.34048462
 	attPos = 0,0,0
 	attPos0 = -0.324443877,-1.1253618,0.187318876
 	rot = -0.00567848794,-0.499967933,0.00983496942,0.865969539
@@ -4600,9 +5050,9 @@ PART
 	{
 		tgt = 4293795908
 		tpersID = 4170581131
-		pos = 0.381925404,-0.190658763,0.622735202
-		rot = 3.42626514E-08,0.965128958,0.0379667208,0.259036362
-		dir = 0.505865037,-0.252529949,0.824820697
+		pos = 0.381924808,-0.190658733,0.622734308
+		rot = 3.4799978E-08,0.965129197,0.0379667282,0.259036422
+		dir = 0.505864978,-0.252530247,0.824820638
 		col = AdapterCOL1
 	}
 	MODULE
@@ -4669,13 +5119,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = strutConnector_4293559306
 	partName = CompoundPart
 	persistentId = 1914070665
-	pos = -1.28486097,8.4414072,1.95366895
+	pos = -1.28485787,8.4414072,1.95367515
 	attPos = 0,0,0
 	attPos0 = -0.0792957321,1.83976912,-0.295937389
 	rot = 0.0014820965,0.130517811,0.0112596592,0.99138093
@@ -4728,9 +5194,9 @@ PART
 	{
 		tgt = 4293738252
 		tpersID = 1375218742
-		pos = 0.00388749549,0.0315789767,0.00946502481
-		rot = 4.63267966E-08,0.992561281,-0.0027653235,0.12172316
-		dir = 0.117109649,0.951307356,0.285131067
+		pos = 0.00388770923,0.0315789729,0.00946606975
+		rot = 4.56135929E-08,0.99256146,-0.00276532397,0.121723182
+		dir = 0.117114961,0.951298058,0.285159796
 		col = DeltaWingCOL
 	}
 	MODULE
@@ -4797,13 +5263,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = strutConnector_4293558690
 	partName = CompoundPart
 	persistentId = 3094143607
-	pos = -1.28485858,8.4414072,-2.09532881
+	pos = -1.28485548,8.4414072,-2.09533501
 	attPos = 0,0,0
 	attPos0 = -0.0792957321,1.83976555,0.295936614
 	rot = -0.0014820518,-0.130517811,0.0112597002,0.99138093
@@ -4856,9 +5338,9 @@ PART
 	{
 		tgt = 4293737734
 		tpersID = 3279022430
-		pos = 0.00831775833,-0.0392491408,0.00814169552
-		rot = 3.04771746E-08,0.99256146,0.00276457123,-0.121722259
-		dir = 0.203176528,-0.958732367,0.198875874
+		pos = 0.00831797253,-0.0392491482,0.00814065058
+		rot = 3.05027683E-08,0.992561638,0.00276457239,-0.121722281
+		dir = 0.203182533,-0.958736241,0.198851109
 		col = DeltaWingCOL
 	}
 	MODULE
@@ -4925,13 +5407,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4293040360
 	partName = Part
 	persistentId = 2660551422
-	pos = -3.97026968,4.98293781,0.760461926
+	pos = -3.97027349,4.98293781,0.760463834
 	attPos = -0.0792189837,0.089409709,0.308008194
 	attPos0 = -0.831279099,0.104166985,-1.65731716
 	rot = 0.570287108,-0.418058425,0.418058574,0.570286751
@@ -5043,13 +5541,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4293039868
 	partName = Part
 	persistentId = 1874873408
-	pos = -3.9702692,4.98293781,-0.902127206
+	pos = -3.97027302,4.98293781,-0.902129114
 	attPos = -0.0792189837,0.089409709,0.308008194
 	attPos0 = 0.831279099,0.104166985,-1.65731716
 	rot = 0.418058693,-0.570286751,0.570287049,0.418058425
@@ -5161,13 +5675,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4293043054
 	partName = Part
 	persistentId = 965352757
-	pos = -0.555117369,6.05412769,0.442073733
+	pos = -0.555113554,6.05412769,0.442073733
 	attPos = -0.0792189837,0.089409709,0.308008194
 	attPos0 = -0.512901306,-0.543398857,1.75777531
 	rot = -0.57028687,-0.418058574,0.418058395,-0.570287049
@@ -5279,13 +5809,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4293038638
 	partName = Part
 	persistentId = 742938577
-	pos = -0.555116653,6.05412769,-0.583737433
+	pos = -0.555112839,6.05412769,-0.583738387
 	attPos = -0.0792189837,0.089409709,0.308008194
 	attPos0 = 0.512901306,-0.543398857,1.75777531
 	rot = -0.418058574,-0.570286989,0.57028687,-0.418058455
@@ -5397,13 +5943,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4293038368
 	partName = Part
 	persistentId = 1219448343
-	pos = -0.555811644,5.69978046,0.444280535
+	pos = -0.555807829,5.69978046,0.444280535
 	attPos = -0.0792189837,0.089409709,0.308008194
 	attPos0 = -0.515108228,-0.897746086,1.75708103
 	rot = -0.57028687,-0.418058574,0.418058395,-0.570287049
@@ -5515,13 +6077,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4293037968
 	partName = Part
 	persistentId = 1630009763
-	pos = -0.555810928,5.69978046,-0.585944235
+	pos = -0.555807114,5.69978046,-0.585945189
 	attPos = -0.0792189837,0.089409709,0.308008194
 	attPos0 = 0.515108228,-0.897746086,1.75708103
 	rot = -0.418058574,-0.570286989,0.57028687,-0.418058455
@@ -5633,13 +6211,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4292927850
 	partName = Part
 	persistentId = 233907282
-	pos = -0.551047087,6.35565472,0.429172426
+	pos = -0.551043272,6.35565472,0.429172426
 	attPos = -0.0792189837,0.089409709,0.308008194
 	attPos0 = -0.5,-0.241871834,1.76184559
 	rot = -0.570286989,-0.418058455,0.418058455,-0.570286989
@@ -5751,13 +6345,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4292927764
 	partName = Part
 	persistentId = 542488756
-	pos = -0.551046371,6.35565472,-0.570836127
+	pos = -0.551042557,6.35565472,-0.57083708
 	attPos = -0.0792189837,0.089409709,0.308008194
 	attPos0 = 0.5,-0.241871834,1.76184559
 	rot = -0.418058455,-0.570287049,0.57028687,-0.418058455
@@ -5869,13 +6479,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4293043312
 	partName = Part
 	persistentId = 1730865299
-	pos = -1.54625165,4.89630604,1.55300546
+	pos = -1.54624879,4.89630604,1.55301023
 	attPos = -0.0288362503,-3.81469727E-06,-6.86850399E-09
 	attPos0 = -1.6237998,0.0175333023,0.766654968
 	rot = 0.707107008,1.78813934E-07,-1.78813934E-07,0.70710665
@@ -5987,13 +6613,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4292927098
 	partName = Part
 	persistentId = 1105131951
-	pos = -1.54625511,4.89630604,-1.69466054
+	pos = -1.5462532,4.89630604,-1.69466436
 	attPos = -0.0288362503,-3.81469727E-06,-6.86850399E-09
 	attPos0 = 1.6237998,0.0175333023,0.766654968
 	rot = -1.78813934E-07,-0.70710665,0.707107008,-1.78813934E-07
@@ -6105,13 +6747,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4293041098
 	partName = Part
 	persistentId = 1723878475
-	pos = -1.54601705,4.65690517,1.55300593
+	pos = -1.54601419,4.65690517,1.5530107
 	attPos = -0.0288362503,-3.81469727E-06,-6.86850399E-09
 	attPos0 = -1.62380028,-0.221867085,0.766890526
 	rot = 0.707107008,1.78813934E-07,-1.78813934E-07,0.70710665
@@ -6223,13 +6881,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4292926864
 	partName = Part
 	persistentId = 2902740717
-	pos = -1.54601955,4.65690517,-1.69466102
+	pos = -1.54601765,4.65690517,-1.69466484
 	attPos = -0.0288362503,-3.81469727E-06,-6.86850399E-09
 	attPos0 = 1.62380028,-0.221867085,0.766890526
 	rot = -1.78813934E-07,-0.70710665,0.707107008,-1.78813934E-07
@@ -6341,13 +7015,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4292927522
 	partName = Part
 	persistentId = 1457055730
-	pos = -1.55327833,4.38545132,1.55300593
+	pos = -1.55327547,4.38545132,1.5530107
 	attPos = -0.0288362503,-3.81469727E-06,-6.86850399E-09
 	attPos0 = -1.62380028,-0.493320942,0.759628296
 	rot = 0.707107008,1.78813934E-07,-1.78813934E-07,0.70710665
@@ -6459,13 +7149,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4292926618
 	partName = Part
 	persistentId = 289743106
-	pos = -1.55328178,4.38545132,-1.69466102
+	pos = -1.55327988,4.38545132,-1.69466484
 	attPos = -0.0288362503,-3.81469727E-06,-6.86850399E-09
 	attPos0 = 1.62380028,-0.493320942,0.759628296
 	rot = -1.78813934E-07,-0.70710665,0.707107008,-1.78813934E-07
@@ -6577,13 +7283,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4292926366
 	partName = Part
 	persistentId = 4154273899
-	pos = -3.97850561,5.31280804,0.734357953
+	pos = -3.97850943,5.31280804,0.73435986
 	attPos = -0.0792189837,0.089409709,0.308008194
 	attPos0 = -0.805175304,0.434036255,-1.66555309
 	rot = 0.570287049,-0.418058455,0.418058693,0.570286751
@@ -6695,13 +7417,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4292926192
 	partName = Part
 	persistentId = 881994443
-	pos = -3.97850513,5.31280804,-0.876023233
+	pos = -3.97850895,5.31280804,-0.87602514
 	attPos = -0.0792189837,0.089409709,0.308008194
 	attPos0 = 0.805175304,0.434036255,-1.66555309
 	rot = 0.418058693,-0.570286751,0.570287049,0.418058425
@@ -6813,13 +7551,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4293044482
 	partName = Part
 	persistentId = 1021288104
-	pos = -3.96399832,4.71282482,0.780332685
+	pos = -3.96400213,4.71282482,0.780334592
 	attPos = -0.0792189837,0.089409709,0.308008194
 	attPos0 = -0.851150036,-0.165947437,-1.6510458
 	rot = 0.570287049,-0.418058455,0.418058693,0.570286751
@@ -6931,13 +7685,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4292925950
 	partName = Part
 	persistentId = 2244882502
-	pos = -3.96399784,4.71282482,-0.921998441
+	pos = -3.96400166,4.71282482,-0.922000349
 	attPos = -0.0792189837,0.089409709,0.308008194
 	attPos0 = 0.851150036,-0.165947437,-1.6510458
 	rot = 0.418058693,-0.570286751,0.570287049,0.418058425
@@ -7049,13 +7819,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4292813296
 	partName = Part
 	persistentId = 2659233987
-	pos = -3.72188783,4.41001797,0.708911657
+	pos = -3.72188973,4.41001797,0.708913565
 	attPos = -0.0288362503,-3.81469727E-06,-6.86850399E-09
 	attPos0 = -0.779729307,-0.468754292,-1.40895653
 	rot = -0.707106829,0,0.707106829,0
@@ -7167,13 +7953,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4292813210
 	partName = Part
 	persistentId = 2976006966
-	pos = -3.7218833,4.41001797,-0.850576222
+	pos = -3.7218852,4.41001797,-0.850578129
 	attPos = -0.0288362503,-3.81469727E-06,-6.86850399E-09
 	attPos0 = 0.779729307,-0.468754292,-1.40895653
 	rot = 0.707106829,8.42937027E-08,-0.707106829,8.42937027E-08
@@ -7285,13 +8087,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4292812968
 	partName = Part
 	persistentId = 3540594717
-	pos = -3.56098008,4.41001797,0.92545867
+	pos = -3.56098199,4.41001797,0.925460577
 	attPos = -0.0288362503,-3.81469727E-06,-6.86850399E-09
 	attPos0 = -0.99627614,-0.468754292,-1.24804783
 	rot = -0.707106829,0,0.707106829,0
@@ -7403,13 +8221,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4292812780
 	partName = Part
 	persistentId = 3776786481
-	pos = -3.56097555,4.41001797,-1.06712341
+	pos = -3.56097746,4.41001797,-1.06712532
 	attPos = -0.0288362503,-3.81469727E-06,-6.86850399E-09
 	attPos0 = 0.99627614,-0.468754292,-1.24804783
 	rot = 0.707106829,8.42937027E-08,-0.707106829,8.42937027E-08
@@ -7521,13 +8355,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4292812532
 	partName = Part
 	persistentId = 1191186254
-	pos = -3.84067297,4.41001606,0.470674187
+	pos = -3.84067678,4.41001606,0.470675141
 	attPos = -0.0288362503,-3.81469727E-06,-6.86850399E-09
 	attPos0 = -0.541500568,-0.468756199,-1.52772141
 	rot = -0.707106829,0,0.707106829,0
@@ -7639,13 +8489,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4292812346
 	partName = Part
 	persistentId = 3613398282
-	pos = -3.84066844,4.41001606,-0.612335265
+	pos = -3.84067225,4.41001606,-0.612335265
 	attPos = -0.0288362503,-3.81469727E-06,-6.86850399E-09
 	attPos0 = 0.541500568,-0.468756199,-1.52772141
 	rot = 0.707106829,8.42937027E-08,-0.707106829,8.42937027E-08
@@ -7757,16 +8623,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = advSasModule_4292625054
 	partName = Part
 	persistentId = 3493806764
-	pos = -2.15545392,7.4975605,-1.97703755
+	pos = -3.11292481,7.50207615,-1.67083585
 	attPos = 6.48501839E-08,-0.388249457,8.86982932E-09
 	attPos0 = -1.89836399E-07,1.13652527,-2.59646828E-08
-	rot = 1.50562968E-07,0.746402323,-1.83731132E-07,0.665495098
+	rot = 1.50562585E-07,0.746402144,-1.83730691E-07,0.665495157
 	attRot = 0,0,0,1
 	attRot0 = -5.96046377E-08,0.604762435,5.96046377E-08,0.796405911
 	mir = 1,1,1
@@ -7869,16 +8751,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = advSasModule_4292624302
 	partName = Part
 	persistentId = 1630066749
-	pos = -2.15545344,7.49756813,1.83537519
+	pos = -3.11292458,7.50209045,1.52917278
 	attPos = 0,-0.388250351,0
 	attPos0 = 0,1.13652492,0
-	rot = 1.83730776E-07,0.665495217,-1.50562812E-07,0.746402323
+	rot = 1.83730407E-07,0.665495217,-1.50562641E-07,0.746402323
 	attRot = 0,0,0,1
 	attRot0 = 7.12042336E-08,-0.604762614,5.40699858E-08,0.796405852
 	mir = 1,1,1
@@ -7981,16 +8879,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = noseCone_4293747126
 	partName = Part
 	persistentId = 2094082349
-	pos = -2.15545559,7.69657421,-1.97705472
+	pos = -3.11292768,7.70108986,-1.6708554
 	attPos = 0,0,0
 	attPos0 = -1.95399235E-14,0.199025124,-1.06581385E-14
-	rot = 1.50562968E-07,0.746402323,-1.83731132E-07,0.665495098
+	rot = 1.5056284E-07,0.746402144,-1.83730776E-07,0.665495157
 	attRot = 0,0,0,1
 	attRot0 = 0,-2.98023188E-08,0,1
 	mir = 1,1,1
@@ -8068,16 +8982,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = noseCone_4292623932
 	partName = Part
 	persistentId = 1367359097
-	pos = -2.15545511,7.6965847,1.83539236
+	pos = -3.1129272,7.70111179,1.52919233
 	attPos = 0,0,0
 	attPos0 = -1.41414543E-15,0.199023247,-3.55881404E-08
-	rot = 1.83730862E-07,0.665495217,-1.50562926E-07,0.746402323
+	rot = 1.83730606E-07,0.665495217,-1.50562954E-07,0.746402323
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -8155,13 +9085,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = solarPanels2_4292616372
 	partName = Part
 	persistentId = 1154294981
-	pos = -2.40372586,5.80196953,2.45517993
+	pos = -3.36119509,5.80648422,2.14897776
 	attPos = -0.0171910524,4.76837158E-06,0.0616691113
 	attPos0 = 0.0207602978,-0.927715182,-0.729340792
 	rot = -0.829230726,-0.0278961398,0.557894528,0.0187681206
@@ -8262,16 +9208,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = solarPanels2_4292615674
 	partName = Part
 	persistentId = 990451785
-	pos = -2.40372658,5.80196953,-2.59684157
+	pos = -3.3611989,5.80648422,-2.29064035
 	attPos = 0.0171910524,8.58306885E-06,0.0616691113
 	attPos0 = -0.0207603723,-0.927719057,-0.729340732
-	rot = -0.829230666,-0.0278961509,-0.557894588,-0.0187681057
+	rot = -0.829230726,-0.0278961249,-0.55789417,-0.0187681206
 	attRot = 0,0,0,1
 	attRot0 = -0.0237742197,0.706706941,0.0237743706,-0.70670712
 	mir = 1,1,1
@@ -8369,13 +9331,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = parachuteRadial_4291911550
 	partName = Part
 	persistentId = 4289324451
-	pos = -3.07235551,4.41001797,0.688600838
+	pos = -3.07235742,4.41001797,0.688602746
 	attPos = 0,0,0
 	attPos0 = -0.759418011,-0.468754292,-0.759417534
 	rot = -0.50000006,-0.50000006,-0.50000006,0.50000006
@@ -8516,13 +9494,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = parachuteRadial_4291910780
 	partName = Part
 	persistentId = 1842181080
-	pos = -3.07235122,4.41001797,-0.830264926
+	pos = -3.07235312,4.41001797,-0.830266833
 	attPos = 0,0,0
 	attPos0 = 0.759418011,-0.468754292,-0.759417534
 	rot = -0.50000006,-0.50000006,-0.50000006,0.50000006
@@ -8663,13 +9657,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = SSME_4293752270
 	partName = Part
 	persistentId = 2322576837
-	pos = -3.06292915,4.41002178,-0.0708322749
+	pos = -3.06293106,4.41002178,-0.0708322749
 	attPos = 0,0,0
 	attPos0 = -3.55271368E-15,-0.46875,-0.74999994
 	rot = 0,0,0.130526111,-0.991445005
@@ -8922,13 +9932,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = launchClamp1_4290733430
 	partName = Part
 	persistentId = 3232535783
-	pos = -4.62782192,3.33519077,1.26568162
+	pos = -4.62782192,3.33519077,1.26568353
 	attPos = 0,0,0
 	attPos0 = -1.33650219,-1.54358101,-2.31488943
 	rot = 4.21468513E-08,0.866025567,4.21468513E-08,0.499999881
@@ -9048,13 +10074,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = launchClamp1_4290151098
 	partName = Part
 	persistentId = 1212235479
-	pos = -4.627841,3.33519077,-1.40734589
+	pos = -4.62784863,3.33519077,-1.4073478
 	attPos = 0,0,0
 	attPos0 = 1.33650208,-1.54358101,-2.31488919
 	rot = -8.42936956E-08,0.50000006,0,0.866025388
@@ -9174,13 +10216,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = launchClamp1_4289357308
 	partName = Part
 	persistentId = 1693704980
-	pos = -2.35093856,6.00559235,3.39688492
+	pos = -3.30840611,6.01010704,3.09069014
 	attPos = 0,0,0
 	attPos0 = 0.407297313,-1.13133121,-1.52005458
 	rot = 0.997481287,0.00212241523,0.0621951222,-0.0340387002
@@ -9231,8 +10289,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 1.61741865
-		height = 4.08106422
+		scaleFactor = 1.61920798
+		height = 4.08557892
 		stagingEnabled = True
 		towerRot = -0.997481167,-0.00212241523,-0.0621950664,-0.0340386964
 		EVENTS
@@ -9300,16 +10358,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = launchClamp1_4289356228
 	partName = Part
 	persistentId = 2960187816
-	pos = -2.3509407,6.00559235,-3.53854346
+	pos = -3.30841136,6.01010704,-3.23234844
 	attPos = 0,0,0
 	attPos0 = -0.407297105,-1.13133395,-1.52005422
-	rot = 0.0621952713,0.0340386927,0.997481227,-0.00212240778
+	rot = 0.0621952415,0.0340386778,0.997481167,-0.00212242082
 	attRot = 0,0,0,1
 	attRot0 = 0.033813078,0.130450323,-0.00445161527,0.990868092
 	mir = 1,1,1
@@ -9357,10 +10431,10 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 1.61741805
-		height = 4.08106422
+		scaleFactor = 1.61920726
+		height = 4.08557892
 		stagingEnabled = True
-		towerRot = -0.0621952899,-0.0340386927,-0.997481167,-0.00212240824
+		towerRot = -0.0621952452,-0.0340386741,-0.997481108,-0.00212242128
 		EVENTS
 		{
 		}
@@ -9415,6 +10489,22 @@ PART
 	{
 		name = ModuleTestSubject
 		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
 		stagingEnabled = True
 		EVENTS
 		{
@@ -9602,12 +10692,28 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = Large.Crewed.Lab_4287741620
 	partName = Part
-	persistentId = 3496194385
+	persistentId = 661828256
 	pos = -2.31292224,9.91141033,-0.0708313808
 	attPos = 0,0,0
 	attPos0 = 3.56374073E-07,2.11388278,9.49912987E-07
@@ -9838,6 +10944,22 @@ PART
 	}
 	MODULE
 	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleTripLogger
 		isEnabled = True
 		stagingEnabled = True
@@ -9860,8 +10982,8 @@ PART
 {
 	part = RCSblock.01.small_4287492406
 	partName = Part
-	persistentId = 1832130962
-	pos = -3.16754508,8.55295277,0.783790648
+	persistentId = 1247783913
+	pos = -3.16755438,8.55295277,0.783799946
 	attPos = 0,0,0
 	attPos0 = 0.854588985,-1.35845757,0.854589641
 	rot = -4.21468478E-08,-0.382683694,8.42937453E-08,-0.923879683
@@ -9991,13 +11113,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = RCSblock.01.small_4287492164
 	partName = Part
-	persistentId = 941962658
-	pos = -1.45830178,8.55295181,0.7837919
+	persistentId = 1933147096
+	pos = -1.45829248,8.55295181,0.783801198
 	attPos = 0,0,0
 	attPos0 = 0.854589462,-1.35845804,-0.854588211
 	rot = -1.26440654E-07,-0.923879862,4.21468336E-08,-0.382683307
@@ -10127,13 +11265,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = RCSblock.01.small_4287491922
 	partName = Part
-	persistentId = 4105949127
-	pos = -1.4582994,8.55295181,-0.925453365
+	persistentId = 1018566569
+	pos = -1.4582901,8.55295181,-0.925462663
 	attPos = 0,0,0
 	attPos0 = -0.854589045,-1.35845804,-0.854588747
 	rot = -1.58050767E-07,-0.923879683,-5.26835819E-08,0.382683694
@@ -10263,13 +11417,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = RCSblock.01.small_4287491680
 	partName = Part
-	persistentId = 2696395210
-	pos = -3.16754484,8.55295277,-0.925454736
+	persistentId = 517664113
+	pos = -3.16755414,8.55295277,-0.925464034
 	attPos = 0,0,0
 	attPos0 = -0.854589224,-1.35845757,0.854590118
 	rot = -7.37569081E-08,-0.382683307,-1.15903845E-07,0.923879862
@@ -10399,13 +11569,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = RCSblock.01.small_4287490882
 	partName = Part
-	persistentId = 1463156524
-	pos = -3.16845107,11.2353973,0.784698129
+	persistentId = 1576732225
+	pos = -3.16846037,11.2353973,0.784707487
 	attPos = 0,0,0
 	attPos0 = 0.855496824,1.32398701,0.855495512
 	rot = -4.21468478E-08,-0.382683694,8.42937453E-08,-0.923879683
@@ -10535,13 +11721,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = RCSblock.01.small_4287490640
 	partName = Part
-	persistentId = 559280001
-	pos = -1.45738947,11.2353973,0.784696043
+	persistentId = 3140153750
+	pos = -1.45737934,11.2353973,0.784704566
 	attPos = 0,0,0
 	attPos0 = 0.85549593,1.32398629,-0.855497062
 	rot = -1.26440654E-07,-0.923879862,4.21468336E-08,-0.382683307
@@ -10671,13 +11873,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = RCSblock.01.small_4287490398
 	partName = Part
-	persistentId = 3177964424
-	pos = -1.4573915,11.2353973,-0.926361918
+	persistentId = 2428505775
+	pos = -1.4573822,11.2353973,-0.926371157
 	attPos = 0,0,0
 	attPos0 = -0.855496824,1.32398629,-0.855496585
 	rot = -1.58050767E-07,-0.923879683,-5.26835819E-08,0.382683694
@@ -10807,13 +12025,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = RCSblock.01.small_4287490156
 	partName = Part
-	persistentId = 4178583318
-	pos = -3.16845036,11.2353973,-0.926364243
+	persistentId = 4067862534
+	pos = -3.16845965,11.2353973,-0.926374316
 	attPos = 0,0,0
 	attPos0 = -0.85549593,1.32398701,0.855496109
 	rot = -7.37569081E-08,-0.382683307,-1.15903845E-07,0.923879862
@@ -10943,13 +12177,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = batteryPack_4287454702
 	partName = Part
-	persistentId = 3638030310
-	pos = -2.76412725,11.7356682,0.710676432
+	persistentId = 3440908485
+	pos = -2.76413107,11.7356682,0.710682154
 	attPos = 0,0,0
 	attPos0 = 0.781486392,1.82425714,0.451190948
 	rot = 0.50000006,-0.50000006,0.500000179,0.50000006
@@ -11020,6 +12270,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = ElectricCharge
@@ -11036,8 +12302,8 @@ PART
 {
 	part = batteryPack_4287453992
 	partName = Part
-	persistentId = 2713882300
-	pos = -2.07936144,11.7356682,0.800825059
+	persistentId = 1258344886
+	pos = -2.07935953,11.7356682,0.800830781
 	attPos = 0,0,0
 	attPos0 = 0.871634781,1.82425737,-0.233554244
 	rot = 0.653281689,-0.270598054,0.270598173,0.653281569
@@ -11108,6 +12374,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = ElectricCharge
@@ -11124,8 +12406,8 @@ PART
 {
 	part = batteryPack_4287453952
 	partName = Part
-	persistentId = 999588713
-	pos = -1.53141057,11.7356672,0.380370945
+	persistentId = 2363928220
+	pos = -1.5314039,11.7356672,0.380373806
 	attPos = 0,0,0
 	attPos0 = 0.451191336,1.82425678,-0.781487048
 	rot = 0.707107067,0,2.08616257E-07,0.707106769
@@ -11196,6 +12478,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = ElectricCharge
@@ -11212,8 +12510,8 @@ PART
 {
 	part = batteryPack_4287453912
 	partName = Part
-	persistentId = 2436034383
-	pos = -1.44126678,11.7356672,-0.304390222
+	persistentId = 351308203
+	pos = -1.44126153,11.7356672,-0.304391652
 	attPos = 0,0,0
 	attPos0 = -0.233553708,1.82425666,-0.871634781
 	rot = 0.653282285,0.270596683,-0.270596772,0.653282106
@@ -11284,6 +12582,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = ElectricCharge
@@ -11300,8 +12614,8 @@ PART
 {
 	part = batteryPack_4287453872
 	partName = Part
-	persistentId = 1535222948
-	pos = -1.86171818,11.7356672,-0.852336049
+	persistentId = 2319888963
+	pos = -1.86171532,11.7356672,-0.852340817
 	attPos = 0,0,0
 	attPos0 = -0.781486392,1.82425714,-0.451192021
 	rot = 0.500000536,0.499999791,-0.500000417,0.499999851
@@ -11372,6 +12686,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = ElectricCharge
@@ -11388,8 +12718,8 @@ PART
 {
 	part = batteryPack_4287453832
 	partName = Part
-	persistentId = 2258992761
-	pos = -2.54648209,11.7356682,-0.942484319
+	persistentId = 1595112378
+	pos = -2.54648399,11.7356682,-0.942489088
 	attPos = 0,0,0
 	attPos0 = -0.871634841,1.82425737,0.23355329
 	rot = 0.270598263,0.65328145,-0.653281689,0.270597905
@@ -11460,6 +12790,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = ElectricCharge
@@ -11476,8 +12822,8 @@ PART
 {
 	part = batteryPack_4287453792
 	partName = Part
-	persistentId = 1535318700
-	pos = -3.09443545,11.7356682,-0.522037685
+	persistentId = 1176681771
+	pos = -3.09444308,11.7356682,-0.5220415
 	attPos = 0,0,0
 	attPos0 = -0.451191396,1.82425749,0.78148514
 	rot = -8.94069672E-08,0.707106948,-0.707106948,8.94069672E-08
@@ -11548,6 +12894,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = ElectricCharge
@@ -11564,11 +12926,11 @@ PART
 {
 	part = batteryPack_4287453752
 	partName = Part
-	persistentId = 1522623740
-	pos = -3.1845777,11.7356682,0.162725538
+	persistentId = 2022269845
+	pos = -3.18458343,11.7356682,0.162726492
 	attPos = 0,0,0
 	attPos0 = 0.233554006,1.82425761,0.871633947
-	rot = -0.270599365,0.653283477,-0.653278768,-0.270599008
+	rot = -0.270599723,0.653283477,-0.653278649,-0.270599127
 	attRot = 0,0,0,1
 	attRot0 = -0.65328151,0.270597875,-0.270598114,-0.653281569
 	mir = 1,1,1
@@ -11636,6 +12998,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = ElectricCharge
@@ -11652,7 +13030,7 @@ PART
 {
 	part = crewCabin_4287740596
 	partName = Part
-	persistentId = 3376934703
+	persistentId = 1073447906
 	pos = -2.31292224,12.7233086,-0.0708313808
 	attPos = 0,0,0
 	attPos0 = 3.69482277E-13,2.81189871,-2.2737373E-13
@@ -11823,6 +13201,22 @@ PART
 	}
 	MODULE
 	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleTripLogger
 		isEnabled = True
 		stagingEnabled = True
@@ -11845,11 +13239,11 @@ PART
 {
 	part = largeAdapter2_4287704892
 	partName = Part
-	persistentId = 2224588070
+	persistentId = 787335325
 	pos = -2.31292224,13.8994255,-0.0708313808
 	attPos = 0,0,0
 	attPos0 = 5.80142379E-13,-1.1761148,1.13686865E-13
-	rot = 0,2.96433478E-13,-1.00000024,-1.1204181E-12
+	rot = 0,3.16530656E-13,-1.00000024,-1.42187585E-12
 	attRot = -0.49999997,0.49999997,0.49999997,0.49999997
 	attRot0 = 5.02429578E-15,0.707106829,-1.56824372E-14,0.707106829
 	mir = 1,1,1
@@ -11932,12 +13326,28 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = MK1CrewCabin_4287511092
 	partName = Part
-	persistentId = 2867515614
+	persistentId = 773443932
 	pos = -2.31292224,15.0261421,-0.0708313808
 	attPos = 0,0,0
 	attPos0 = -9.10430856E-14,-1.12671626,2.04729883E-13
@@ -12119,6 +13529,22 @@ PART
 	}
 	MODULE
 	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleTripLogger
 		isEnabled = True
 		stagingEnabled = True
@@ -12141,7 +13567,7 @@ PART
 {
 	part = probeStackSmall_4287507992
 	partName = Part
-	persistentId = 4147868616
+	persistentId = 849861164
 	pos = -2.31292224,15.8261414,-0.0708313808
 	attPos = -2.2399892E-13,0.237499714,2.27373838E-13
 	attPos0 = 2.69473598E-13,-1.0374999,0
@@ -12370,6 +13796,22 @@ PART
 	}
 	MODULE
 	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleTripLogger
 		isEnabled = True
 		stagingEnabled = True
@@ -12403,7 +13845,7 @@ PART
 {
 	part = dockingPort2_4287703588
 	partName = Part
-	persistentId = 724917873
+	persistentId = 1483430874
 	pos = -2.31292224,15.9261398,-0.0708313808
 	attPos = 0,0,0
 	attPos0 = 2.2595295E-13,-0.0999999046,-2.27373838E-13
@@ -12572,16 +14014,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = radialDecoupler_4287505380
 	partName = Part
-	persistentId = 1179184705
-	pos = -2.74742651,15.1580048,0.363669783
+	persistentId = 1014786140
+	pos = -2.74743223,15.1580048,0.363674551
 	attPos = 0,0,0
 	attPos0 = 0.434483171,-0.131863609,-0.434482902
-	rot = 0.923879683,-2.95030816E-07,-0.382683456,2.95030191E-07
+	rot = 0.923879683,-2.9503164E-07,-0.382683456,2.95030731E-07
 	attRot = 0,0,0,1
 	attRot0 = 3.42726736E-07,0.923879504,5.96046057E-08,-0.382683545
 	mir = 1,1,1
@@ -12714,16 +14172,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = rcsTankMini_4287503758
 	partName = Part
-	persistentId = 835080231
-	pos = -3.03845119,15.5504799,0.654693425
+	persistentId = 1213737862
+	pos = -3.03845525,15.5504799,0.654697716
 	attPos = 0,0,0
 	attPos0 = -0.411573112,-0.392474264,-4.93593006E-08
-	rot = 0.923879802,-1.15902822E-07,-0.382683694,4.53077575E-07
+	rot = 0.923879802,-1.15902495E-07,-0.382683694,4.53077348E-07
 	attRot = 0,0,0,1
 	attRot0 = -1.63912716E-07,-8.94069743E-08,1.49011932E-08,1
 	mir = 1,1,1
@@ -12791,6 +14265,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = MonoPropellant
@@ -12807,11 +14297,11 @@ PART
 {
 	part = sasModule_4287500458
 	partName = Part
-	persistentId = 4120826033
-	pos = -3.03844738,15.8290901,0.654695928
+	persistentId = 3339654667
+	pos = -3.03845167,15.8290901,0.654700696
 	attPos = 0,0,0
 	attPos0 = -9.02372904E-07,-0.278612018,-2.40794606E-07
-	rot = -0.382683337,-5.26826369E-08,-0.923880041,-4.32006289E-07
+	rot = -0.382683337,-5.26824664E-08,-0.923880041,-4.32006289E-07
 	attRot = 0,0,0.707106769,0.707106769
 	attRot0 = 7.45058131E-08,-1,-4.32133675E-07,3.57627783E-07
 	mir = 1,1,1
@@ -12916,16 +14406,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = standardNoseCone_4287478574
 	partName = Part
-	persistentId = 2377253347
-	pos = -3.03845334,16.1702003,0.654696643
+	persistentId = 2945195284
+	pos = -3.03845906,16.1702003,0.654701412
 	attPos = 0,0,0
 	attPos0 = 9.55064934E-07,-0.341110557,-8.37803285E-08
-	rot = 4.72283887E-13,0.707107008,6.53158517E-13,0.707107008
+	rot = 6.53158463E-13,0.707107008,7.9383879E-13,0.707107008
 	attRot = 0,0,0.707106709,-0.707106709
 	attRot0 = -0.382683784,-2.22413746E-07,0.923879445,-3.22684258E-07
 	mir = 1,1,1
@@ -13004,16 +14510,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = sasModule_4287499686
 	partName = Part
-	persistentId = 180776851
-	pos = -3.03845024,15.2718697,0.654696405
+	persistentId = 2388941368
+	pos = -3.03845501,15.2718697,0.654701173
 	attPos = 0,0,0
 	attPos0 = -9.75173293E-07,0.2786102,2.40794407E-07
-	rot = -0.382683337,-5.26826369E-08,-0.923880041,-4.32006289E-07
+	rot = -0.382683337,-5.26824664E-08,-0.923880041,-4.32006289E-07
 	attRot = 0,0,0.707106769,0.707106769
 	attRot0 = 7.45058131E-08,-1,-4.32133675E-07,3.57627783E-07
 	mir = 1,1,1
@@ -13118,16 +14640,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = rcsTankMini_4287502948
 	partName = Part
-	persistentId = 1012504938
-	pos = -3.03845072,14.9932594,0.654695988
+	persistentId = 2223953610
+	pos = -3.03845501,14.9932594,0.654700339
 	attPos = 0,0,0
 	attPos0 = 9.63458888E-07,0.278611153,0
-	rot = -0.382683337,-5.26826369E-08,-0.923880041,-4.32006289E-07
+	rot = -0.382683337,-5.26824664E-08,-0.923880041,-4.32006289E-07
 	attRot = 0,0,0.707106769,0.707106769
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -13194,6 +14732,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = MonoPropellant
@@ -13210,11 +14764,11 @@ PART
 {
 	part = sasModule_4287485382
 	partName = Part
-	persistentId = 1100471501
-	pos = -3.03845572,14.7146454,0.654698074
+	persistentId = 116617845
+	pos = -3.03846145,14.7146454,0.654702842
 	attPos = 0,0,0
 	attPos0 = 8.44249598E-07,0.278610915,-5.68433918E-14
-	rot = -0.382683337,-5.26826369E-08,-0.923880041,-4.32006289E-07
+	rot = -0.382683337,-5.26824664E-08,-0.923880041,-4.32006289E-07
 	attRot = 0,0,0.707106769,0.707106769
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -13319,16 +14873,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = rcsTankMini_4287484624
 	partName = Part
-	persistentId = 3705107063
-	pos = -3.03845358,14.4360352,0.654697776
+	persistentId = 2701112147
+	pos = -3.0384593,14.4360352,0.654702544
 	attPos = 0,0,0
 	attPos0 = 9.33656906E-07,0.278611273,0
-	rot = -0.382683337,-5.26826369E-08,-0.923880041,-4.32006289E-07
+	rot = -0.382683337,-5.26824664E-08,-0.923880041,-4.32006289E-07
 	attRot = 0,0,0.707106769,0.707106769
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -13394,6 +14964,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = MonoPropellant
@@ -13410,11 +14996,11 @@ PART
 {
 	part = sasModule_4287484578
 	partName = Part
-	persistentId = 3955156983
-	pos = -3.03845692,14.1574249,0.654699266
+	persistentId = 1922568505
+	pos = -3.03846264,14.1574249,0.654704034
 	attPos = 0,0,0
 	attPos0 = 8.44249598E-07,0.278610915,-5.68433918E-14
-	rot = -0.382683337,-5.26826369E-08,-0.923880041,-4.32006289E-07
+	rot = -0.382683337,-5.26824664E-08,-0.923880041,-4.32006289E-07
 	attRot = 0,0,0.707106769,0.707106769
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -13519,16 +15105,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = standardNoseCone_4287475502
 	partName = Part
-	persistentId = 1320894020
-	pos = -3.03845382,13.8163128,0.654700339
+	persistentId = 2737929589
+	pos = -3.03845859,13.8163128,0.654705107
 	attPos = 0,0,0
 	attPos0 = 6.84064105E-07,0.341110826,7.62601289E-08
-	rot = -1.00000036,-1.77073218E-07,2.38418579E-07,-3.28689396E-07
+	rot = -1.00000036,-1.77073602E-07,2.38418579E-07,-3.28689225E-07
 	attRot = 0,0,0.707106709,0.707106709
 	attRot0 = 4.56508758E-07,-0.923879743,-2.86755125E-07,0.382682949
 	mir = 1,1,1
@@ -13607,16 +15209,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = RCSBlock.v2_4287474722
 	partName = Part
-	persistentId = 3779446667
-	pos = -3.24947071,14.9860115,0.865715206
+	persistentId = 2416476848
+	pos = -3.24948597,14.9860115,0.865730882
 	attPos = 0,0,0
 	attPos0 = 0.29836905,0.00724693947,1.15480788E-07
-	rot = 0.923879802,-2.95027775E-07,-0.382683694,8.42934682E-08
+	rot = 0.923879802,-2.95027718E-07,-0.382683694,8.42936103E-08
 	attRot = 0,0,0,1
 	attRot0 = -6.46404033E-08,1,5.26749844E-08,2.68220845E-07
 	mir = 1,1,1
@@ -13743,16 +15361,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = radialDecoupler_4287480546
 	partName = Part
-	persistentId = 1549414909
-	pos = -2.7474196,15.1580048,-0.505333006
+	persistentId = 74366429
+	pos = -2.74742341,15.1580048,-0.505337775
 	attPos = 0,0,0
 	attPos0 = -0.434482902,-0.131863609,-0.434483111
-	rot = 0.923879921,-2.42343788E-07,0.382683814,-2.63416837E-07
+	rot = 0.923879921,-2.42343532E-07,0.382683814,-2.63416581E-07
 	attRot = 0,0,0,1
 	attRot0 = -5.96046235E-08,0.382683218,-3.27825404E-07,-0.923879623
 	mir = 1,1,1
@@ -13885,16 +15519,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = rcsTankMini_4287480484
 	partName = Part
-	persistentId = 758771968
-	pos = -3.03845024,15.5504799,-0.796359718
+	persistentId = 3492801916
+	pos = -3.03845477,15.5504799,-0.796364725
 	attPos = 0,0,0
 	attPos0 = -0.411573112,-0.392474264,-4.93593006E-08
-	rot = 0.923879802,-2.63419309E-07,0.382683575,-1.15904243E-07
+	rot = 0.923879802,-2.6341948E-07,0.382683575,-1.15904264E-07
 	attRot = 0,0,0,1
 	attRot0 = -1.63912716E-07,-8.94069743E-08,1.49011932E-08,1
 	mir = 1,1,1
@@ -13962,6 +15612,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = MonoPropellant
@@ -13978,11 +15644,11 @@ PART
 {
 	part = sasModule_4287480444
 	partName = Part
-	persistentId = 1469982614
-	pos = -3.03845024,15.829092,-0.79635787
+	persistentId = 1521477225
+	pos = -3.03845406,15.829092,-0.796362638
 	attPos = 0,0,0
 	attPos0 = -9.02372904E-07,-0.278612018,-2.40794606E-07
-	rot = 0.382684052,5.90051002E-07,-0.923879802,-1.26440625E-07
+	rot = 0.382684052,5.90049922E-07,-0.923879802,-1.26440426E-07
 	attRot = 0,0,0.707106769,0.707106769
 	attRot0 = 7.45058131E-08,-1,-4.32133675E-07,3.57627783E-07
 	mir = 1,1,1
@@ -14087,16 +15753,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = standardNoseCone_4287478202
 	partName = Part
-	persistentId = 1929038916
-	pos = -3.03845239,16.1702023,-0.796358764
+	persistentId = 3483517586
+	pos = -3.03845739,16.1702023,-0.796363175
 	attPos = 0,0,0
 	attPos0 = 7.76250999E-07,-0.341110438,-8.37804848E-08
-	rot = 1.79125152E-07,-3.57627869E-07,2.63418485E-07,1.00000024
+	rot = 1.79125252E-07,-3.57627869E-07,2.634184E-07,1.00000024
 	attRot = 0,0,0.707106709,-0.707106709
 	attRot0 = -0.382683694,-2.51352674E-07,0.923879385,-3.60311532E-07
 	mir = 1,1,1
@@ -14176,16 +15858,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = sasModule_4287480404
 	partName = Part
-	persistentId = 180687167
-	pos = -3.03845,15.2718697,-0.796361506
+	persistentId = 4277666530
+	pos = -3.03845477,15.2718697,-0.796366632
 	attPos = 0,0,0
 	attPos0 = -9.75173293E-07,0.2786102,2.40794407E-07
-	rot = 0.382684052,5.90051002E-07,-0.923879802,-1.26440625E-07
+	rot = 0.382684052,5.90049922E-07,-0.923879802,-1.26440426E-07
 	attRot = 0,0,0.707106769,0.707106769
 	attRot0 = 7.45058131E-08,-1,-4.32133675E-07,3.57627783E-07
 	mir = 1,1,1
@@ -14290,16 +15988,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = rcsTankMini_4287480358
 	partName = Part
-	persistentId = 2883775818
-	pos = -3.03845072,14.9932594,-0.796363175
+	persistentId = 2582049806
+	pos = -3.03845453,14.9932594,-0.796367943
 	attPos = 0,0,0
 	attPos0 = 9.63458888E-07,0.278611153,0
-	rot = 0.382684052,5.90051002E-07,-0.923879802,-1.26440625E-07
+	rot = 0.382684052,5.90049922E-07,-0.923879802,-1.26440426E-07
 	attRot = 0,0,0.707106769,0.707106769
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -14366,6 +16080,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = MonoPropellant
@@ -14382,11 +16112,11 @@ PART
 {
 	part = sasModule_4287480312
 	partName = Part
-	persistentId = 2367421712
-	pos = -3.03844833,14.7146454,-0.796361983
+	persistentId = 3784500871
+	pos = -3.03845215,14.7146454,-0.796366751
 	attPos = 0,0,0
 	attPos0 = 8.44249598E-07,0.278610915,-5.68433918E-14
-	rot = 0.382684052,5.90051002E-07,-0.923879802,-1.26440625E-07
+	rot = 0.382684052,5.90049922E-07,-0.923879802,-1.26440426E-07
 	attRot = 0,0,0.707106769,0.707106769
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -14491,16 +16221,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = rcsTankMini_4287480272
 	partName = Part
-	persistentId = 3654746344
-	pos = -3.03845429,14.4360352,-0.796362042
+	persistentId = 4267877589
+	pos = -3.03846002,14.4360352,-0.796366811
 	attPos = 0,0,0
 	attPos0 = 9.33656906E-07,0.278611273,0
-	rot = 0.382684052,5.90051002E-07,-0.923879802,-1.26440625E-07
+	rot = 0.382684052,5.90049922E-07,-0.923879802,-1.26440426E-07
 	attRot = 0,0,0.707106769,0.707106769
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -14566,6 +16312,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = MonoPropellant
@@ -14582,11 +16344,11 @@ PART
 {
 	part = sasModule_4287480220
 	partName = Part
-	persistentId = 2864927574
-	pos = -3.03844833,14.1574249,-0.796363831
+	persistentId = 683750804
+	pos = -3.03845215,14.1574249,-0.796368599
 	attPos = 0,0,0
 	attPos0 = 8.44249598E-07,0.278610915,-5.68433918E-14
-	rot = 0.382684052,5.90051002E-07,-0.923879802,-1.26440625E-07
+	rot = 0.382684052,5.90049922E-07,-0.923879802,-1.26440426E-07
 	attRot = 0,0,0.707106769,0.707106769
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -14691,16 +16453,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = standardNoseCone_4287477640
 	partName = Part
-	persistentId = 57945068
-	pos = -3.03845358,13.8163128,-0.796366334
+	persistentId = 2243759391
+	pos = -3.03845739,13.8163128,-0.796371102
 	attPos = 0,0,0
 	attPos0 = 2.07226336E-07,0.341110706,9.20500121E-09
-	rot = -0.707107008,-1.35656026E-13,-0.707107008,-9.69689173E-13
+	rot = -0.707107008,-1.40680328E-13,-0.707107008,-1.08524799E-12
 	attRot = 0,0,0.707106709,0.707106709
 	attRot0 = 5.13070404E-07,-0.923879683,-2.73193848E-07,0.382682979
 	mir = 1,1,1
@@ -14779,16 +16557,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = RCSBlock.v2_4287459690
 	partName = Part
-	persistentId = 2882426877
-	pos = -3.24947262,14.9860115,-1.00738227
+	persistentId = 1171563504
+	pos = -3.24948835,14.9860115,-1.00739825
 	attPos = 0,0,0
 	attPos0 = 0.29837054,0.00724592619,4.09753298E-08
-	rot = 0.923879802,-7.37570218E-08,0.382684052,-5.16296325E-07
+	rot = 0.923879802,-7.37569934E-08,0.382684052,-5.16295472E-07
 	attRot = 0,0,0,1
 	attRot0 = -1.14173304E-07,1,5.26748636E-08,2.08616228E-07
 	mir = 1,1,1
@@ -14915,16 +16709,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = radialDecoupler_4287480174
 	partName = Part
-	persistentId = 152824764
-	pos = -1.87842035,15.1580048,-0.505332887
+	persistentId = 2472065632
+	pos = -1.87841558,15.1580048,-0.505337656
 	attPos = 0,0,0
 	attPos0 = -0.434483111,-0.131864563,0.434482902
-	rot = 0.382683426,-8.42953227E-08,0.923879981,-6.74351554E-07
+	rot = 0.382683426,-8.42961185E-08,0.923879981,-6.7435252E-07
 	attRot = 0,0,0,1
 	attRot0 = -3.87430191E-07,-0.382683665,-5.36441803E-07,-0.923879504
 	mir = 1,1,1
@@ -15057,16 +16867,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = rcsTankMini_4287480112
 	partName = Part
-	persistentId = 1779810322
-	pos = -1.58739507,15.5504799,-0.796358466
+	persistentId = 2634218183
+	pos = -1.5873903,15.5504799,-0.796363235
 	attPos = 0,0,0
 	attPos0 = -0.411573112,-0.392474264,-4.93593006E-08
-	rot = 0.382683426,-2.5288287E-07,0.923879981,-6.32204546E-07
+	rot = 0.382683426,-2.52883211E-07,0.923879981,-6.32204433E-07
 	attRot = 0,0,0,1
 	attRot0 = -1.63912716E-07,-8.94069743E-08,1.49011932E-08,1
 	mir = 1,1,1
@@ -15134,6 +16960,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = MonoPropellant
@@ -15150,11 +16992,11 @@ PART
 {
 	part = sasModule_4287480072
 	partName = Part
-	persistentId = 1487416615
-	pos = -1.58739436,15.8290939,-0.79635942
+	persistentId = 4099755629
+	pos = -1.58738959,15.8290939,-0.796364188
 	attPos = 0,0,0
 	attPos0 = -9.02372904E-07,-0.278612018,-2.40794606E-07
-	rot = 0.923879981,8.53472727E-07,-0.382683158,1.15904584E-07
+	rot = 0.923879981,8.53472443E-07,-0.382683158,1.1590501E-07
 	attRot = 0,0,0.707106769,0.707106769
 	attRot0 = 7.45058131E-08,-1,-4.32133675E-07,3.57627783E-07
 	mir = 1,1,1
@@ -15259,16 +17101,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = standardNoseCone_4287478156
 	partName = Part
-	persistentId = 405978018
-	pos = -1.58739412,16.1702042,-0.79635942
+	persistentId = 2185356434
+	pos = -1.58738935,16.1702042,-0.796364188
 	attPos = 0,0,0
 	attPos0 = 9.25262611E-07,-0.3411102,-1.43384838E-07
-	rot = 3.37177312E-07,-0.707107127,3.37174583E-07,0.707106888
+	rot = 3.37177624E-07,-0.707107127,3.37174555E-07,0.707106888
 	attRot = 0,0,0.707106709,-0.707106709
 	attRot0 = -0.382683694,-2.67846843E-07,0.923879385,-3.17792654E-07
 	mir = 1,1,1
@@ -15347,16 +17205,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = sasModule_4287480032
 	partName = Part
-	persistentId = 2574063604
-	pos = -1.58739328,15.2718697,-0.79635936
+	persistentId = 1585310302
+	pos = -1.58738852,15.2718697,-0.796364129
 	attPos = 0,0,0
 	attPos0 = -9.75173293E-07,0.2786102,2.40794407E-07
-	rot = 0.923879981,8.53472727E-07,-0.382683158,1.15904584E-07
+	rot = 0.923879981,8.53472443E-07,-0.382683158,1.1590501E-07
 	attRot = 0,0,0.707106769,0.707106769
 	attRot0 = 7.45058131E-08,-1,-4.32133675E-07,3.57627783E-07
 	mir = 1,1,1
@@ -15461,16 +17335,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = rcsTankMini_4287479986
 	partName = Part
-	persistentId = 378274760
-	pos = -1.58739197,14.9932594,-0.796360373
+	persistentId = 1617912911
+	pos = -1.5873872,14.9932594,-0.796365142
 	attPos = 0,0,0
 	attPos0 = 9.63458888E-07,0.278611153,0
-	rot = 0.923879981,8.53472727E-07,-0.382683158,1.15904584E-07
+	rot = 0.923879981,8.53472443E-07,-0.382683158,1.1590501E-07
 	attRot = 0,0,0.707106769,0.707106769
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -15537,6 +17427,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = MonoPropellant
@@ -15553,11 +17459,11 @@ PART
 {
 	part = sasModule_4287479940
 	partName = Part
-	persistentId = 1266312915
-	pos = -1.58739138,14.7146492,-0.796360672
+	persistentId = 1208227047
+	pos = -1.58738661,14.7146492,-0.79636544
 	attPos = 0,0,0
 	attPos0 = 8.44249598E-07,0.278610915,-5.68433918E-14
-	rot = 0.923879981,8.53472727E-07,-0.382683158,1.15904584E-07
+	rot = 0.923879981,8.53472443E-07,-0.382683158,1.1590501E-07
 	attRot = 0,0,0.707106769,0.707106769
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -15662,16 +17568,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = rcsTankMini_4287479900
 	partName = Part
-	persistentId = 2750254278
-	pos = -1.58739066,14.4360371,-0.796361506
+	persistentId = 1537146457
+	pos = -1.58738589,14.4360371,-0.796366274
 	attPos = 0,0,0
 	attPos0 = 9.33656906E-07,0.278611273,0
-	rot = 0.923879981,8.53472727E-07,-0.382683158,1.15904584E-07
+	rot = 0.923879981,8.53472443E-07,-0.382683158,1.1590501E-07
 	attRot = 0,0,0.707106769,0.707106769
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -15737,6 +17659,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = MonoPropellant
@@ -15753,11 +17691,11 @@ PART
 {
 	part = sasModule_4287479848
 	partName = Part
-	persistentId = 1341578647
-	pos = -1.58738804,14.1574249,-0.79636234
+	persistentId = 3685186313
+	pos = -1.58738327,14.1574249,-0.796367109
 	attPos = 0,0,0
 	attPos0 = 8.44249598E-07,0.278610915,-5.68433918E-14
-	rot = 0.923879981,8.53472727E-07,-0.382683158,1.15904584E-07
+	rot = 0.923879981,8.53472443E-07,-0.382683158,1.1590501E-07
 	attRot = 0,0,0.707106769,0.707106769
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -15862,16 +17800,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = standardNoseCone_4287475606
 	partName = Part
-	persistentId = 1154659243
-	pos = -1.58738756,13.8163147,-0.796362698
+	persistentId = 3139727043
+	pos = -1.58738279,13.8163147,-0.796367466
 	attPos = 0,0,0
 	attPos0 = 1.10129668E-06,0.341110706,-3.11169657E-07
-	rot = 0,3.35628556E-07,-1.00000036,1.67039104E-07
+	rot = 0,3.35628584E-07,-1.00000036,1.67039303E-07
 	attRot = 0,0,0.707106709,0.707106709
 	attRot0 = 4.83946849E-07,-0.923879683,-3.19607238E-07,0.382682979
 	mir = 1,1,1
@@ -15950,16 +17904,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = RCSBlock.v2_4287459448
 	partName = Part
-	persistentId = 4264756224
-	pos = -1.37637472,14.9860115,-1.00737858
+	persistentId = 2592353564
+	pos = -1.37635922,14.9860115,-1.00739408
 	attPos = 0,0,0
 	attPos0 = 0.298370063,0.0072474163,4.88010187E-07
-	rot = 0.382683158,3.16114495E-08,0.923879981,-7.69180133E-07
+	rot = 0.382683158,3.16114779E-08,0.923879981,-7.69180303E-07
 	attRot = 0,0,0,1
 	attRot0 = -1.01217047E-07,1,1.02039941E-07,1.49011569E-07
 	mir = 1,1,1
@@ -16086,16 +18056,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = radialDecoupler_4287479802
 	partName = Part
-	persistentId = 2014204050
-	pos = -1.87842047,15.1580048,0.363669157
+	persistentId = 4109030073
+	pos = -1.8784157,15.1580048,0.363673687
 	attPos = 0,0,0
 	attPos0 = 0.434482902,-0.131864563,0.434483111
-	rot = -0.382683575,1.26440625E-07,0.923879683,-6.74353089E-07
+	rot = -0.382683575,1.26440739E-07,0.923879683,-6.74354283E-07
 	attRot = 0,0,0,1
 	attRot0 = -5.36441917E-07,-0.923879564,-4.17232542E-07,-0.382683307
 	mir = 1,1,1
@@ -16228,16 +18214,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = rcsTankMini_4287479740
 	partName = Part
-	persistentId = 2007064219
-	pos = -1.58739805,15.5504799,0.654694855
+	persistentId = 3450573472
+	pos = -1.58739424,15.5504799,0.654698789
 	attPos = 0,0,0
 	attPos0 = -0.411573112,-0.392474264,-4.93593006E-08
-	rot = -0.382683575,-8.42951522E-08,0.923879683,-8.00793543E-07
+	rot = -0.382683575,-8.42952375E-08,0.923879683,-8.007936E-07
 	attRot = 0,0,0,1
 	attRot0 = -1.63912716E-07,-8.94069743E-08,1.49011932E-08,1
 	mir = 1,1,1
@@ -16305,6 +18307,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = MonoPropellant
@@ -16321,11 +18339,11 @@ PART
 {
 	part = sasModule_4287479700
 	partName = Part
-	persistentId = 4156310255
-	pos = -1.58739924,15.829092,0.654695988
+	persistentId = 2658534194
+	pos = -1.58739543,15.829092,0.654700279
 	attPos = 0,0,0
 	attPos0 = -9.02372904E-07,-0.278612018,-2.40794606E-07
-	rot = 0.923879623,6.42737518E-07,0.382683903,4.10930994E-07
+	rot = 0.923879623,6.42736723E-07,0.382683903,4.1093088E-07
 	attRot = 0,0,0.707106769,0.707106769
 	attRot0 = 7.45058131E-08,-1,-4.32133675E-07,3.57627783E-07
 	mir = 1,1,1
@@ -16430,16 +18448,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = standardNoseCone_4287478110
 	partName = Part
-	persistentId = 3634647350
-	pos = -1.58739769,16.1702023,0.654694438
+	persistentId = 1190018634
+	pos = -1.58739376,16.1702023,0.654698372
 	attPos = 0,0,0
 	attPos0 = 7.4644862E-07,-0.3411102,6.52312693E-08
-	rot = 2.42344754E-07,-1.00000024,1.7912366E-07,-1.78813934E-07
+	rot = 2.42344981E-07,-1.00000024,1.7912302E-07,-1.78813934E-07
 	attRot = 0,0,0.707106709,-0.707106709
 	attRot0 = -0.382683784,-2.58247809E-07,0.923879445,-3.76490902E-07
 	mir = 1,1,1
@@ -16518,16 +18552,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = sasModule_4287479660
 	partName = Part
-	persistentId = 2737509043
-	pos = -1.58739781,15.2718697,0.654696047
+	persistentId = 1282955888
+	pos = -1.58739376,15.2718697,0.654700577
 	attPos = 0,0,0
 	attPos0 = -9.75173293E-07,0.2786102,2.40794407E-07
-	rot = 0.923879623,6.42737518E-07,0.382683903,4.10930994E-07
+	rot = 0.923879623,6.42736723E-07,0.382683903,4.1093088E-07
 	attRot = 0,0,0.707106769,0.707106769
 	attRot0 = 7.45058131E-08,-1,-4.32133675E-07,3.57627783E-07
 	mir = 1,1,1
@@ -16632,16 +18682,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = rcsTankMini_4287479614
 	partName = Part
-	persistentId = 3274966851
-	pos = -1.58739448,14.9932594,0.654693305
+	persistentId = 710310092
+	pos = -1.58739054,14.9932594,0.654697061
 	attPos = 0,0,0
 	attPos0 = 9.63458888E-07,0.278611153,0
-	rot = 0.923879623,6.42737518E-07,0.382683903,4.10930994E-07
+	rot = 0.923879623,6.42736723E-07,0.382683903,4.1093088E-07
 	attRot = 0,0,0.707106769,0.707106769
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -16708,6 +18774,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = MonoPropellant
@@ -16724,11 +18806,11 @@ PART
 {
 	part = sasModule_4287479568
 	partName = Part
-	persistentId = 4159097988
-	pos = -1.58739614,14.7146492,0.65469718
+	persistentId = 2392800909
+	pos = -1.58739209,14.7146492,0.65470171
 	attPos = 0,0,0
 	attPos0 = 8.44249598E-07,0.278610915,-5.68433918E-14
-	rot = 0.923879623,6.42737518E-07,0.382683903,4.10930994E-07
+	rot = 0.923879623,6.42736723E-07,0.382683903,4.1093088E-07
 	attRot = 0,0,0.707106769,0.707106769
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -16833,16 +18915,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = rcsTankMini_4287479528
 	partName = Part
-	persistentId = 2477310490
-	pos = -1.58739591,14.4360371,0.654699385
+	persistentId = 1171550614
+	pos = -1.58739233,14.4360371,0.654703915
 	attPos = 0,0,0
 	attPos0 = 9.33656906E-07,0.278611273,0
-	rot = 0.923879623,6.42737518E-07,0.382683903,4.10930994E-07
+	rot = 0.923879623,6.42736723E-07,0.382683903,4.1093088E-07
 	attRot = 0,0,0.707106769,0.707106769
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -16908,6 +19006,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = MonoPropellant
@@ -16924,11 +19038,11 @@ PART
 {
 	part = sasModule_4287479476
 	partName = Part
-	persistentId = 2342562522
-	pos = -1.58739257,14.1574249,0.654698551
+	persistentId = 2211429616
+	pos = -1.58738875,14.1574249,0.654702425
 	attPos = 0,0,0
 	attPos0 = 8.44249598E-07,0.278610915,-5.68433918E-14
-	rot = 0.923879623,6.42737518E-07,0.382683903,4.10930994E-07
+	rot = 0.923879623,6.42736723E-07,0.382683903,4.1093088E-07
 	attRot = 0,0,0.707106769,0.707106769
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -17033,16 +19147,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = standardNoseCone_4287475554
 	partName = Part
-	persistentId = 926974255
-	pos = -1.58739281,13.8163147,0.65470022
+	persistentId = 940008275
+	pos = -1.58738863,13.8163147,0.65470469
 	attPos = 0,0,0
 	attPos0 = 5.94656626E-07,0.341110706,3.14678658E-07
-	rot = 0.707107008,4.32007027E-07,-0.707107008,4.32005436E-07
+	rot = 0.707107008,4.32007255E-07,-0.707107008,4.32005606E-07
 	attRot = 0,0,0.707106709,0.707106709
 	attRot0 = 4.62715718E-07,-0.923879683,-3.82630077E-07,0.382682949
 	mir = 1,1,1
@@ -17121,16 +19251,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = RCSBlock.v2_4287459206
 	partName = Part
-	persistentId = 2692612006
-	pos = -1.37638426,14.9860115,0.865712285
+	persistentId = 2782600213
+	pos = -1.37637115,14.9860115,0.86572659
 	attPos = 0,0,0
 	attPos0 = 0.298370183,0.0072474163,5.58769386E-08
-	rot = -0.382683843,2.42345692E-07,0.923879623,-6.00594603E-07
+	rot = -0.382683843,2.42345948E-07,0.923879623,-6.00594774E-07
 	attRot = 0,0,0,1
 	attRot0 = -1.24600106E-07,1,1.05380288E-07,1.1920929E-07
 	mir = 1,1,1
@@ -17257,13 +19403,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = RCSblock.01.small_4287497430
 	partName = Part
-	persistentId = 66930900
-	pos = -3.14476562,13.4679031,0.761012375
+	persistentId = 1912036581
+	pos = -3.14477491,13.4679031,0.761021674
 	attPos = 0,0,0
 	attPos0 = 0.831810415,-0.744592667,-0.831810117
 	rot = 0.923879683,1.15903859E-07,-0.382683694,1.05367342E-08
@@ -17393,13 +19555,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = RCSblock.01.small_4287495212
 	partName = Part
-	persistentId = 377469255
-	pos = -3.14476538,13.4679031,-0.902676225
+	persistentId = 2396639920
+	pos = -3.14477468,13.4679031,-0.902685523
 	attPos = 0,0,0
 	attPos0 = -0.831809998,-0.744592667,-0.831810653
 	rot = 0.923879862,1.58050753E-07,0.382683307,1.05367519E-08
@@ -17529,13 +19707,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = RCSblock.01.small_4287494970
 	partName = Part
-	persistentId = 3984501437
-	pos = -1.48107886,13.4679031,-0.902674854
+	persistentId = 3175549425
+	pos = -1.48106956,13.4679031,-0.902684152
 	attPos = 0,0,0
 	attPos0 = -0.831810415,-0.744593143,0.831810117
 	rot = 0.382683605,4.21468442E-08,0.923879743,-8.42937382E-08
@@ -17665,13 +19859,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = RCSblock.01.small_4287494728
 	partName = Part
-	persistentId = 4132789725
-	pos = -1.48107934,13.4679031,0.761012673
+	persistentId = 1039597875
+	pos = -1.48107004,13.4679031,0.761021972
 	attPos = 0,0,0
 	attPos0 = 0.831809998,-0.744593143,0.8318097
 	rot = -0.382683307,-8.42936814E-08,0.923879862,-8.42937382E-08
@@ -17801,13 +20011,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = RCSblock.01.small_4287493930
 	partName = Part
-	persistentId = 4110169534
-	pos = -3.13645339,11.9853096,0.75270015
+	persistentId = 2826480307
+	pos = -3.13646269,11.9853096,0.752709448
 	attPos = 0,0,0
 	attPos0 = 0.823498368,0.737999201,-0.823497951
 	rot = 0.923879683,1.15903859E-07,-0.382683694,1.05367342E-08
@@ -17937,13 +20163,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = RCSblock.01.small_4287493688
 	partName = Part
-	persistentId = 4151826606
-	pos = -3.13645315,11.9853096,-0.894363999
+	persistentId = 936774835
+	pos = -3.13646245,11.9853096,-0.894373298
 	attPos = 0,0,0
 	attPos0 = -0.823498011,0.737999201,-0.823498428
 	rot = 0.923879862,1.58050753E-07,0.382683307,1.05367519E-08
@@ -18073,13 +20315,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = RCSblock.01.small_4287493446
 	partName = Part
-	persistentId = 1259904804
-	pos = -1.48938918,11.9853106,-0.894362628
+	persistentId = 1139894516
+	pos = -1.48937988,11.9853106,-0.894371927
 	attPos = 0,0,0
 	attPos0 = -0.823498309,0.737998247,0.823498011
 	rot = 0.382683605,4.21468442E-08,0.923879743,-8.42937382E-08
@@ -18209,13 +20467,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = RCSblock.01.small_4287493204
 	partName = Part
-	persistentId = 441792410
-	pos = -1.48939157,11.9853106,0.752700925
+	persistentId = 73430045
+	pos = -1.48938227,11.9853106,0.752710223
 	attPos = 0,0,0
 	attPos0 = 0.823498249,0.737998247,0.823498428
 	rot = -0.382683307,-8.42936814E-08,0.923879862,-8.42937382E-08
@@ -18345,13 +20619,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = solarPanels4_4287448122
 	partName = Part
-	persistentId = 3842654381
-	pos = -2.31292272,13.5874615,1.0790652
+	persistentId = 4040129646
+	pos = -2.31292272,13.5874615,1.07907093
 	attPos = 0,0,0
 	attPos0 = 1.14987481,-0.864152014,2.38418352E-07
 	rot = 0.707107008,-1.05367732E-08,-0.707106769,-3.16101989E-08
@@ -18454,13 +20744,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = solarPanels4_4287443320
 	partName = Part
-	persistentId = 2833580512
-	pos = -2.312922,13.5874615,-1.22072804
+	persistentId = 3763418490
+	pos = -2.312922,13.5874615,-1.22073376
 	attPos = 0,0,0
 	attPos0 = -1.14987481,-0.864152014,-2.38418806E-07
 	rot = 0.707106948,1.58050838E-07,0.707106829,-1.5805098E-07
@@ -18563,13 +20869,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = solarPanels4_4287444038
 	partName = Part
-	persistentId = 121949466
-	pos = -2.31292272,13.2243843,1.07874763
+	persistentId = 2937635280
+	pos = -2.31292272,13.2243843,1.07875335
 	attPos = 0,0,0
 	attPos0 = 1.14955723,-0.501076341,2.38418352E-07
 	rot = 0.707107008,-1.05367732E-08,-0.707106769,-3.16101989E-08
@@ -18672,13 +20994,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = solarPanels4_4287442716
 	partName = Part
-	persistentId = 3181746637
-	pos = -2.312922,13.2243843,-1.22041047
+	persistentId = 379355020
+	pos = -2.312922,13.2243843,-1.22041619
 	attPos = 0,0,0
 	attPos0 = -1.14955723,-0.501076341,-2.38418806E-07
 	rot = 0.707106948,1.58050838E-07,0.707106829,-1.5805098E-07
@@ -18781,13 +21119,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = solarPanels4_4287442112
 	partName = Part
-	persistentId = 4146163294
-	pos = -2.31292272,12.3557978,1.07788694
+	persistentId = 2997149933
+	pos = -2.31292272,12.3557978,1.07789266
 	attPos = 0,0,0
 	attPos0 = 1.14869666,0.367511183,2.38418352E-07
 	rot = 0,0.707106829,1.68587448E-07,0.707106948
@@ -18890,13 +21244,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = solarPanels4_4287441700
 	partName = Part
-	persistentId = 1816964879
-	pos = -2.312922,12.3557978,-1.21954978
+	persistentId = 3970539504
+	pos = -2.312922,12.3557978,-1.2195555
 	attPos = 0,0,0
 	attPos0 = -1.14869654,0.367511183,-2.38418806E-07
 	rot = 1.95399252E-14,-0.707106769,4.2146894E-08,0.707107008
@@ -18999,13 +21369,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = solarPanels4_4287441096
 	partName = Part
-	persistentId = 395951774
-	pos = -2.31292272,11.9847975,1.07769787
+	persistentId = 1200933871
+	pos = -2.31292272,11.9847975,1.0777036
 	attPos = 0,0,0
 	attPos0 = 1.1485076,0.738511384,2.38418352E-07
 	rot = 0,0.707106829,1.68587448E-07,0.707106948
@@ -19108,13 +21494,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = solarPanels4_4287440972
 	partName = Part
-	persistentId = 648251339
-	pos = -2.312922,11.9847975,-1.21936095
+	persistentId = 2586741989
+	pos = -2.312922,11.9847975,-1.21936667
 	attPos = 0,0,0
 	attPos0 = -1.14850748,0.738511384,-2.38418806E-07
 	rot = 1.95399252E-14,-0.707106769,4.2146894E-08,0.707107008
@@ -19206,6 +21608,22 @@ PART
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
 		stagingEnabled = True
 		EVENTS
 		{
@@ -19343,6 +21761,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
@@ -19458,13 +21892,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = rcsTankRadialLong_4293425962
 	partName = Part
 	persistentId = 1503632308
-	pos = -1.9484036,18.1614456,1.05170524
+	pos = -1.9484036,18.1614456,1.05170715
 	attPos = 0,0,0
 	attPos0 = -1.12252212,0.113893032,0.364521861
 	rot = -0.50000006,-0.50000006,-0.50000006,0.50000006
@@ -19529,6 +21979,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = MonoPropellant
@@ -19546,7 +22012,7 @@ PART
 	part = rcsTankRadialLong_4293425720
 	partName = Part
 	persistentId = 31639097
-	pos = -1.94840193,18.1614456,-1.19336808
+	pos = -1.94840193,18.1614456,-1.19336998
 	attPos = 0,0,0
 	attPos0 = 1.12252212,0.113893032,0.364521861
 	rot = -0.50000006,-0.50000006,-0.50000006,0.50000006
@@ -19611,6 +22077,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = MonoPropellant
@@ -19628,7 +22110,7 @@ PART
 	part = rcsTankRadialLong_4293425430
 	partName = Part
 	persistentId = 4204368931
-	pos = -1.96210277,18.1614456,0.487861544
+	pos = -1.96210277,18.1614456,0.487862498
 	attPos = 0,0,0
 	attPos0 = -0.558687449,0.113893032,0.350821376
 	rot = -0.50000006,-0.50000006,-0.50000006,0.50000006
@@ -19693,6 +22175,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = MonoPropellant
@@ -19710,7 +22208,7 @@ PART
 	part = rcsTankRadialLong_4292809450
 	partName = Part
 	persistentId = 3039675704
-	pos = -1.96210241,18.1614456,-0.629525483
+	pos = -1.96210241,18.1614456,-0.629526436
 	attPos = 0,0,0
 	attPos0 = 0.558687449,0.113893032,0.350821376
 	rot = -0.50000006,-0.50000006,-0.50000006,0.50000006
@@ -19764,6 +22262,22 @@ PART
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
 		stagingEnabled = True
 		EVENTS
 		{
@@ -19856,6 +22370,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = MonoPropellant
@@ -19873,7 +22403,7 @@ PART
 	part = wingConnector4_4293737556
 	partName = Part
 	persistentId = 2640355950
-	pos = -1.04398263,9.24789619,1.25083935
+	pos = -1.04398072,9.24789619,1.25084126
 	attPos = 0,-8.58306885E-06,-0.0527244806
 	attPos0 = -1.32165527,-3.5996213,1.32165492
 	rot = 1.26440554E-07,0.707106948,-1.26440554E-07,0.707106709
@@ -19953,13 +22483,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = wingConnector4_4293737444
 	partName = Part
 	persistentId = 4158205433
-	pos = -1.04398274,9.2478981,-1.3924998
+	pos = -1.04398084,9.2478981,-1.39250171
 	attPos = 0,-6.67572021E-06,-0.0527244806
 	attPos0 = 1.32165527,-3.5996213,1.32165492
 	rot = 6.3220277E-08,-0.707106888,2.10734239E-08,0.707106769
@@ -20039,13 +22585,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = wingShuttleStrake_4293736780
 	partName = Part
 	persistentId = 816682205
-	pos = -0.992721677,11.6309452,1.31432593
+	pos = -0.992719769,11.6309452,1.31432784
 	attPos = -0.0649533272,-4.529953E-06,2.86102295E-06
 	attPos0 = -1.32019186,-1.21657681,1.32019103
 	rot = -8.42937027E-08,0.707107246,-4.21468513E-08,0.707106411
@@ -20126,6 +22688,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = LiquidFuel
@@ -20143,10 +22721,10 @@ PART
 	part = structuralWing_4293737220
 	partName = Part
 	persistentId = 2545343758
-	pos = -0.992718339,10.5422449,1.78397799
+	pos = -0.992715478,10.5422449,1.78398275
 	attPos = 0.458579361,-0.288249075,-1.22455026E-06
 	attPos0 = -0.928215623,-0.800451219,-5.06639481E-07
-	rot = 0.0395764634,0.705998302,0.0395762101,0.705998659
+	rot = 0.0395764336,0.705998302,0.0395761803,0.705998659
 	attRot = 3.89850463E-08,-2.2968111E-08,0.115654655,0.993289351
 	attRot0 = 8.58555325E-08,-6.02356579E-07,0.0210896246,0.999777555
 	mir = 1,1,1
@@ -20223,13 +22801,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = wingShuttleStrake_4293736518
 	partName = Part
 	persistentId = 1310200718
-	pos = -0.992721796,11.6309452,-1.45598781
+	pos = -0.992719889,11.6309452,-1.45598972
 	attPos = 0.064953208,-4.05311584E-06,2.02655792E-06
 	attPos0 = 1.32019186,-1.21657729,1.3201915
 	rot = 6.3220277E-08,-0.707106888,2.10734239E-08,0.707106769
@@ -20310,6 +22904,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = LiquidFuel
@@ -20327,7 +22937,7 @@ PART
 	part = structuralWing_4293736326
 	partName = Part
 	persistentId = 2704038376
-	pos = -0.992721677,10.5422449,-1.92563462
+	pos = -0.992719769,10.5422449,-1.92563844
 	attPos = 0.458579242,-0.288249433,3.50388518E-07
 	attPos0 = -0.928215146,-0.800450861,5.96046448E-07
 	rot = -0.0395764522,-0.705998123,0.0395762436,0.705998838
@@ -20407,13 +23017,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = wingStrake_4293731978
 	partName = Part
 	persistentId = 1869397412
-	pos = -0.989287496,15.0069389,0.913460433
+	pos = -0.989285588,15.0069389,0.913462341
 	attPos = 0.339353144,-1.17434883,0
 	attPos0 = -1.32362914,3.33373404,1.3236289
 	rot = 0.0372150317,0.706126809,0.0372149497,0.706126809
@@ -20493,13 +23119,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = wingStrake_4293731696
 	partName = Part
 	persistentId = 4016747602
-	pos = -0.989284754,15.0069389,-1.0551213
+	pos = -0.989282846,15.0069389,-1.05512321
 	attPos = -0.339353144,-1.17434883,2.38418579E-07
 	attPos0 = 1.32362914,3.33373356,1.32362866
 	rot = -0.0372150131,-0.706126809,0.0372149311,0.706126809
@@ -20579,14 +23221,30 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = GearSmall_4293702682
 	partName = Part
 	persistentId = 1466621497
-	pos = -0.627499819,17.384697,-0.0708303079
-	attPos = 0,3.24249268E-05,-0.158776283
+	pos = -0.53959918,17.384697,-0.0708303079
+	attPos = -1.31130219E-06,4.29153442E-05,-0.0708487034
 	attPos0 = 0,4.53712749,1.84416914
 	rot = 0.500000238,-0.499999911,-0.500000238,-0.499999911
 	attRot = 0,0,0,1
@@ -21007,6 +23665,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
@@ -21117,13 +23791,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = launchClamp1_4289355870
 	partName = Part
 	persistentId = 89353889
-	pos = -2.95365858,9.18116283,2.32044506
+	pos = -2.95365858,9.18116283,2.32044888
 	attPos = -1.76429749E-05,0,-7.15255737E-07
 	attPos0 = -2.39125514,-3.66636372,-0.640734911
 	rot = 0,-0.991444945,-1.68587405E-07,-0.130526274
@@ -21243,13 +23933,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = launchClamp1_4289355022
 	partName = Part
 	persistentId = 4076162519
-	pos = -2.95365715,9.18116283,-2.4621079
+	pos = -2.95365715,9.18116283,-2.46211171
 	attPos = 0,0,0
 	attPos0 = 2.39125538,-3.66636372,-0.640734911
 	rot = 1.68587405E-07,-0.130526125,0,-0.991445005
@@ -21358,6 +24064,22 @@ PART
 	{
 		name = ModuleTestSubject
 		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
 		stagingEnabled = True
 		EVENTS
 		{
@@ -21639,6 +24361,22 @@ PART
 	}
 	MODULE
 	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleTripLogger
 		isEnabled = True
 		stagingEnabled = True
@@ -21684,7 +24422,7 @@ PART
 	part = linearRcs_4287424616
 	partName = Part
 	persistentId = 3125988185
-	pos = -2.67479563,21.1792145,-0.697617114
+	pos = -2.67479563,21.1792145,-0.697618067
 	attPos = 0,0,0
 	attPos0 = 0.626778126,2.08161068,-0.361871004
 	rot = -0.346048415,0.744294465,-0.454452395,-0.346048176
@@ -21796,13 +24534,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4287424550
 	partName = Part
 	persistentId = 3165328488
-	pos = -2.6747961,21.1792145,0.55595535
+	pos = -2.6747961,21.1792145,0.555956304
 	attPos = 0,0,0
 	attPos0 = -0.626778126,2.08161092,-0.361871004
 	rot = 0.454452455,-0.346048355,0.346048415,0.744294524
@@ -21914,13 +24668,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4287424484
 	partName = Part
 	persistentId = 3120004084
-	pos = -2.00491571,21.0976028,-1.23710597
+	pos = -2.00491571,21.0976028,-1.23710787
 	attPos = 0.0792189837,0.0894093513,0.308008194
 	attPos0 = 1.08704138,1.91059232,-2.38418579E-07
 	rot = -0.0523479879,0.793084145,-0.605540991,-0.0399692059
@@ -22032,13 +24802,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4287424418
 	partName = Part
 	persistentId = 2792015702
-	pos = -2.00491738,21.0976028,1.09544337
+	pos = -2.00491738,21.0976028,1.09544528
 	attPos = -0.0792189837,0.089409709,0.308008194
 	attPos0 = -1.08704138,1.91059244,-2.38418579E-07
 	rot = 0.605540991,-0.0399692059,0.0523479879,0.793084145
@@ -22150,13 +24936,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = noseCone_4287424352
 	partName = Part
 	persistentId = 3292481002
-	pos = -1.68791974,22.2851334,-0.0708310232
+	pos = -1.68791807,22.2851334,-0.0708310232
 	attPos = 0,0,0
 	attPos0 = 0,3.18750095,0.624999523
 	rot = 0,-0.707106829,0,-0.707106829
@@ -22213,6 +25015,7 @@ PART
 		isEnabled = True
 		useVariantMass = True
 		stagingEnabled = True
+		selectedVariant = Dark
 		EVENTS
 		{
 		}
@@ -22241,13 +25044,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4287424316
 	partName = Part
 	persistentId = 4011849348
-	pos = -2.01140881,22.652874,0.170329839
+	pos = -2.01140761,22.652874,0.170330316
 	attPos = -0.0288362503,-3.81469727E-06,-6.86850399E-09
 	attPos0 = -0.241157994,0.367738247,-0.323488235
 	rot = 0.352120996,-0.456804812,0.203297377,0.791208327
@@ -22359,13 +25178,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4287424250
 	partName = Part
 	persistentId = 426588646
-	pos = -2.01140857,22.652874,-0.311992735
+	pos = -2.01140738,22.652874,-0.311993212
 	attPos = -0.0288362503,-3.81469727E-06,-6.86850399E-09
 	attPos0 = 0.241157994,0.367738247,-0.323488235
 	rot = 0.203297347,-0.791208267,0.352120847,0.456804872
@@ -22477,13 +25312,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4287424184
 	partName = Part
 	persistentId = 2310308081
-	pos = -1.37979674,22.6414871,0.217479378
+	pos = -1.37979412,22.6414871,0.217479855
 	attPos = -0.0288362503,-3.81469727E-06,-6.86850399E-09
 	attPos0 = -0.288307369,0.356350422,0.308115005
 	rot = -0.352120996,-0.456804693,0.203297421,-0.791208208
@@ -22595,13 +25446,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4287424118
 	partName = Part
 	persistentId = 2864176512
-	pos = -1.37979639,22.6414871,-0.359140843
+	pos = -1.37979376,22.6414871,-0.35914132
 	attPos = -0.0288362503,-3.81469727E-06,-6.86850399E-09
 	attPos0 = 0.288307369,0.356350422,0.308115005
 	rot = -0.203297377,-0.791208208,0.352121055,-0.456804693
@@ -22713,13 +25580,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = strutConnector_4287424052
 	partName = CompoundPart
 	persistentId = 598282910
-	pos = -1.21918547,22.5685577,-0.0708306655
+	pos = -1.21918166,22.5685577,-0.0708306655
 	attPos = 0,0,0
 	attPos0 = 0,0.283424377,0.468721926
 	rot = -0.220431,0.975402594,0,-8.94069672E-08
@@ -22771,9 +25654,9 @@ PART
 	{
 		tgt = 4287424352
 		tpersID = 3292481002
-		pos = 1.55322523E-05,-8.55587641E-05,-5.28097298E-05
-		rot = 1.9741293E-08,1.00000107,1.77635684E-14,7.10542736E-14
-		dir = 0.152670607,-0.840979695,-0.519080758
+		pos = 1.51017539E-05,-8.57638152E-05,-5.28097298E-05
+		rot = 2.36895517E-08,1.00000119,2.13162821E-14,8.52651283E-14
+		dir = 0.148282036,-0.842103064,-0.518531442
 		col = ConeCOL
 	}
 	MODULE
@@ -22840,13 +25723,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = dockingPortLateral_4287423946
 	partName = Part
 	persistentId = 1843545339
-	pos = -3.52784157,17.2826538,-0.0708323345
+	pos = -3.52784348,17.2826538,-0.0708323345
 	attPos = 1.05276548E-07,-0.564919472,-0.0106858015
 	attPos0 = -1.05276548E-07,-1.25000143,-1.20422363
 	rot = 0,-0.707106829,0,-0.707106829
@@ -23058,13 +25957,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = dockingPort2_4287423824
 	partName = Part
 	persistentId = 1106609878
-	pos = -3.52784157,16.7073364,-0.0708323345
+	pos = -3.52784348,16.7073364,-0.0708323345
 	attPos = 0,0,0
 	attPos0 = 0,-0.575313926,0
 	rot = -0.707106829,0,0.707106829,0
@@ -23232,6 +26147,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
@@ -23323,13 +26254,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4287423726
 	partName = Part
 	persistentId = 1439698307
-	pos = -2.5657835,21.4370728,0.493501335
+	pos = -2.5657835,21.4370728,0.493502289
 	attPos = 0,-0.184091806,-0.101647377
 	attPos0 = -0.5643242,2.52356553,-0.15121007
 	rot = -0.450823635,0.29650563,-0.372471184,-0.755054891
@@ -23441,13 +26388,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4287423660
 	partName = Part
 	persistentId = 2417368079
-	pos = -2.56577921,21.4370728,-0.63516289
+	pos = -2.56577921,21.4370728,-0.635163844
 	attPos = 0,-0.18409133,-0.101647377
 	attPos0 = 0.5643242,2.52356553,-0.15121007
 	rot = 0.372471154,-0.755054712,0.450823784,0.296505809
@@ -23559,13 +26522,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4287423594
 	partName = Part
 	persistentId = 1093567368
-	pos = -1.9343605,21.3844528,0.976532876
+	pos = -1.9343605,21.3844528,0.976534784
 	attPos = -0.114775896,-0.226151228,0.128682137
 	attPos0 = -0.932573676,2.51300192,0.24988246
 	rot = -0.550879061,0.0109859109,-0.103955626,-0.828012764
@@ -23677,13 +26656,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4287423528
 	partName = Part
 	persistentId = 338880627
-	pos = -1.93435466,21.3844528,-1.11819518
+	pos = -1.93435371,21.3844528,-1.11819708
 	attPos = 0.114775896,-0.226150751,0.128682137
 	attPos0 = 0.932573676,2.51300168,0.24988246
 	rot = 0.103955537,-0.828012586,0.550879121,0.0109859109
@@ -23795,13 +26790,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4287423462
 	partName = Part
 	persistentId = 2155177671
-	pos = -1.01990414,21.4020042,0.556776583
+	pos = -1.01990223,21.4020042,0.556777537
 	attPos = 0,0,0
 	attPos0 = -0.627598166,2.30440712,1.29301441
 	rot = -0.543621302,-0.303347468,0.219531208,-0.751173973
@@ -23913,13 +26924,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4287423396
 	partName = Part
 	persistentId = 1646116190
-	pos = -1.01990151,21.4020042,-0.698435962
+	pos = -1.01989961,21.4020042,-0.698436916
 	attPos = 0,0,0
 	attPos0 = 0.627598166,2.30440712,1.29301441
 	rot = -0.219531104,-0.751173854,0.5436216,-0.3033472
@@ -24031,13 +27058,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4287423330
 	partName = Part
 	persistentId = 2277264473
-	pos = -0.959314346,21.1067352,0.589687645
+	pos = -0.959312439,21.1067352,0.589689553
 	attPos = 0,0,0
 	attPos0 = -0.660506785,2.00913906,1.35360324
 	rot = -0.584531665,-0.304206342,0.25074482,-0.709160328
@@ -24149,13 +27192,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4287423264
 	partName = Part
 	persistentId = 3771674505
-	pos = -0.959312677,21.1067352,-0.731343925
+	pos = -0.95931077,21.1067352,-0.731344879
 	attPos = 0,0,0
 	attPos0 = 0.660506785,2.00913906,1.35360324
 	rot = -0.250744879,-0.709160268,0.584531784,-0.304206192
@@ -24267,13 +27326,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4287423198
 	partName = Part
 	persistentId = 1629002602
-	pos = -0.905659318,21.7450714,0.0233523026
+	pos = -0.905657411,21.7450714,0.0233523026
 	attPos = 0,0,0
 	attPos0 = -0.0941828638,2.64747477,1.40725601
 	rot = -0.419254988,-0.56940788,0.419254988,-0.56940788
@@ -24385,13 +27460,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = linearRcs_4287423132
 	partName = Part
 	persistentId = 867262368
-	pos = -0.905659318,21.7450714,-0.165013403
+	pos = -0.905657411,21.7450714,-0.165013403
 	attPos = 0,0,0
 	attPos0 = 0.0941828638,2.64747477,1.40725601
 	rot = -0.419254988,-0.56940788,0.419254988,-0.56940788
@@ -24503,13 +27594,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = ksp.r.largeBatteryPack_4287423066
 	partName = Part
 	persistentId = 3697790658
-	pos = -3.2280314,17.8475876,0.844276249
+	pos = -3.2280333,17.8475876,0.844278157
 	attPos = 0,0,0
 	attPos0 = -0.915100813,-1.25000095,-0.915100098
 	rot = 0.500000238,-0.500000238,-0.500000477,-0.499999285
@@ -24574,6 +27681,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = ElectricCharge
@@ -24591,7 +27714,7 @@ PART
 	part = ksp.r.largeBatteryPack_4287423042
 	partName = Part
 	persistentId = 166581353
-	pos = -3.22803092,17.8475876,-0.985939384
+	pos = -3.22803283,17.8475876,-0.985941291
 	attPos = 0,0,0
 	attPos0 = 0.915100873,-1.25000095,-0.915100098
 	rot = 0.500000477,-0.499999136,-0.500000238,-0.500000298
@@ -24656,6 +27779,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = ElectricCharge
@@ -24673,7 +27812,7 @@ PART
 	part = strutConnector_4291244800
 	partName = CompoundPart
 	persistentId = 1740812791
-	pos = -3.66848612,16.7764034,0.454057008
+	pos = -3.66848922,16.7764034,0.454058558
 	attPos = 0,0,0
 	attPos0 = -0.524887025,-0.506250381,-0.140643239
 	rot = 0.499999911,0.500000298,0.499999911,0.50000006
@@ -24724,10 +27863,10 @@ PART
 	PARTDATA
 	{
 		tgt = 4287478574
-		tpersID = 2377253347
-		pos = -0.712158501,0.269719899,0.405207694
-		rot = 4.34648406E-09,0.519832909,0.139290228,0.842838526
-		dir = -0.825576961,0.312675536,0.469741136
+		tpersID = 2945195284
+		pos = -0.712158501,0.26972127,0.405206263
+		rot = 4.34628245E-09,0.519833326,0.139290333,0.842839181
+		dir = -0.825577199,0.312677205,0.469739586
 		col = collider
 	}
 	MODULE
@@ -24794,16 +27933,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = strutConnector_4291238934
 	partName = CompoundPart
-	persistentId = 528804083
-	pos = -3.26712346,16.0165234,-0.928390384
+	persistentId = 4028369144
+	pos = -3.26714015,16.0165234,-0.928405881
 	attPos = 0,0,0
 	attPos0 = -0.228657752,-0.153678849,-0.13201566
-	rot = -0.0557584614,0.252742499,0.208091542,-0.943244815
+	rot = -0.0557585284,0.252742499,0.208091825,-0.943244815
 	attRot = 0,0,0,1
 	attRot0 = -0.0557579286,0.252741724,0.208091348,-0.943244755
 	mir = 1,1,1
@@ -24852,9 +28007,9 @@ PART
 	{
 		tgt = 4287423946
 		tpersID = 1843545339
-		pos = -0.556223333,0.579654813,0.547192574
-		rot = 1.24012711E-08,-5.08085861E-07,-0.538170755,0.842838526
-		dir = -0.572240233,0.596346438,0.562949419
+		pos = -0.556225479,0.579654515,0.547192752
+		rot = -5.57135849E-09,-5.23206495E-07,-0.538171113,0.842839122
+		dir = -0.572241783,0.596345425,0.562948942
 		col = collider
 	}
 	MODULE
@@ -24921,13 +28076,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = spotLight3_4291224918
 	partName = Part
 	persistentId = 2935469218
-	pos = -3.78259683,17.8475876,0.777687013
+	pos = -3.78259993,17.8475876,0.777690113
 	attPos = 0,0,0
 	attPos0 = -0.848513603,-1.25,-1.46966815
 	rot = 0,0.707107008,0.70710665,-2.38418579E-07
@@ -25119,13 +28290,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = spotLight3_4291224664
 	partName = Part
 	persistentId = 198238589
-	pos = -3.78259706,17.8475876,-0.919349372
+	pos = -3.78260016,17.8475876,-0.919352472
 	attPos = 0,0,0
 	attPos0 = 0.848513484,-1.25,-1.46966815
 	rot = -0.70710665,-1.78813934E-07,5.96046448E-08,0.707107008
@@ -25293,13 +28480,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = domeLight1_4291224352
 	partName = Part
-	persistentId = 273898583
-	pos = -2.31292224,13.8615484,0.906469166
+	persistentId = 1417091985
+	pos = -2.31292224,13.8615484,0.906481564
 	attPos = 0,0,0
 	attPos0 = -2.9802311E-07,0.0378770903,0.977282345
 	rot = -0.8478567,-5.96046448E-08,1.1920929E-07,-0.530225933
@@ -25493,13 +28696,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = domeLight1_4291222804
 	partName = Part
-	persistentId = 2228064232
-	pos = -3.29022264,13.8615484,-0.0708313212
+	persistentId = 1188038975
+	pos = -3.29023504,13.8615484,-0.0708313212
 	attPos = 0,0,0
 	attPos0 = 0.977282286,0.0378773287,3.57627954E-07
 	rot = -0.599525213,0.374926299,-0.599525332,-0.374926299
@@ -25669,13 +28888,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = domeLight1_4291222750
 	partName = Part
-	persistentId = 2817203175
-	pos = -2.31292224,13.8615484,-1.04813194
+	persistentId = 4212867295
+	pos = -2.31292224,13.8615484,-1.04814434
 	attPos = 0,0,0
 	attPos0 = 2.98023537E-07,0.0378770903,-0.977282524
 	rot = -2.98023224E-08,0.530225873,-0.84785676,2.98023224E-08
@@ -25845,13 +29080,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = domeLight1_4291222696
 	partName = Part
-	persistentId = 3982846144
-	pos = -1.33562183,13.8615484,-0.0708313212
+	persistentId = 3003726753
+	pos = -1.33560944,13.8615484,-0.0708313212
 	attPos = 0,0,0
 	attPos0 = -0.977282286,0.0378768519,-2.38418636E-07
 	rot = 0.599525332,0.374926239,-0.599525452,0.374926239
@@ -26021,13 +29272,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = stripLight1_4291222078
 	partName = Part
 	persistentId = 1693369920
-	pos = -2.31292295,8.46195602,1.55495
+	pos = -2.31292295,8.46195602,1.5549562
 	attPos = 0,0,0
 	attPos0 = -1.62577212,-4.38557053,-1.13686838E-13
 	rot = 0.707106829,0.707106829,0,2.38418579E-07
@@ -26219,13 +29486,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = stripLight1_4291221516
 	partName = Part
 	persistentId = 1858086185
-	pos = -2.31292343,8.46195602,-1.69661283
+	pos = -2.31292343,8.46195602,-1.69661903
 	attPos = 0,0,0
 	attPos0 = 1.62577212,-4.38557053,-1.13686838E-13
 	rot = -8.94069672E-08,2.98023224E-07,-0.707106948,0.707106709
@@ -26393,13 +29676,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = spotLight3_4290866410
 	partName = Part
 	persistentId = 2696417475
-	pos = -3.90165138,7.84752941,-0.0708313808
+	pos = -3.90165758,7.84752941,-0.0708313808
 	attPos = 0,0,0
 	attPos0 = 1.86264742E-07,1.25000191,-1.58872128
 	rot = 0,0.70710659,-0.707107008,2.68220901E-07
@@ -26566,13 +29865,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = navLight1_4290855664
 	partName = Part
 	persistentId = 1191158403
-	pos = -0.46942699,8.1514864,-0.0708316192
+	pos = -0.469420791,8.1514864,-0.0708316192
 	attPos = 0,0,0
 	attPos0 = -2.23515997E-08,-4.69604015,1.84348834
 	rot = -1.26440554E-07,0.707106769,-1.26440526E-07,-0.707106888
@@ -26763,13 +30078,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = radialDecoupler1-2_4293770978
 	partName = Part
-	persistentId = 858535453
-	pos = -0.458923817,11.9009361,-0.0708316192
+	persistentId = 3869450310
+	pos = -0.458920002,11.9009361,-0.0708316192
 	attPos = 0,0,0
 	attPos0 = -1.49010191E-08,-0.946590424,1.8539958
 	rot = -1.78813934E-07,1.00000012,2.13162821E-14,-1.1920929E-07
@@ -26902,13 +30233,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = Size3LargeTank_4293769014
 	partName = Part
-	persistentId = 1441963481
-	pos = 1.59470677,11.8460159,-0.0708239898
+	persistentId = 4056393701
+	pos = 1.59472537,11.8460159,-0.0708239898
 	attPos = -4.22000885E-05,1.84321117,5.68434189E-14
 	attPos0 = -2.05357838,-0.0549215749,2.38418551E-07
 	rot = -1.56242876E-07,0.707106948,1.56242905E-07,0.707106829
@@ -26977,6 +30324,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = LiquidFuel
@@ -27004,8 +30367,8 @@ PART
 {
 	part = Size3MediumTank_4293768976
 	partName = Part
-	persistentId = 1529424798
-	pos = 1.59481311,17.5230141,-0.0708206519
+	persistentId = 1338368001
+	pos = 1.59484601,17.5230141,-0.0708206519
 	attPos = 0,0,0
 	attPos0 = 1.13686838E-13,5.67700005,1.19998663E-06
 	rot = 0,1.1920929E-07,-1.36667225E-07,1.00000024
@@ -27070,6 +30433,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = LiquidFuel
@@ -27097,8 +30476,8 @@ PART
 {
 	part = Size3MediumTank_4293768742
 	partName = Part
-	persistentId = 1745218950
-	pos = 1.59485865,21.3910141,-0.0708149299
+	persistentId = 456939390
+	pos = 1.59490585,21.3910141,-0.0708149299
 	attPos = 0,0,0
 	attPos0 = 1.61255718E-06,3.86800003,-4.54747459E-13
 	rot = -2.13162821E-14,1.1920929E-07,-1.58360905E-07,1.00000024
@@ -27164,6 +30543,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = LiquidFuel
@@ -27191,8 +30586,8 @@ PART
 {
 	part = Size3SmallTank_4293768704
 	partName = Part
-	persistentId = 1498196501
-	pos = 1.59496856,24.2890129,-0.0708201751
+	persistentId = 221658819
+	pos = 1.59503007,24.2890129,-0.0708201751
 	attPos = 0,0,0
 	attPos0 = 7.29576328E-08,2.89799881,-6.82121189E-13
 	rot = -2.13162821E-14,1.1920929E-07,-1.58360905E-07,1.00000024
@@ -27257,6 +30652,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = LiquidFuel
@@ -27284,8 +30695,8 @@ PART
 {
 	part = rocketNoseConeSize3_4293768372
 	partName = Part
-	persistentId = 236194826
-	pos = 1.59500766,25.2490139,-0.0708199367
+	persistentId = 1004563722
+	pos = 1.59508348,25.2490139,-0.0708199367
 	attPos = 0,0,0
 	attPos0 = 1.49838888E-06,0.960000992,0
 	rot = 2.13162821E-14,-1.1920929E-07,1.58360905E-07,-1.00000024
@@ -27348,16 +30759,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = strutConnector_4293768666
 	partName = CompoundPart
-	persistentId = 2351772145
-	pos = -0.179424524,21.4638748,-0.546243131
+	persistentId = 1179305080
+	pos = -0.17939496,21.4638748,-0.54624933
 	attPos = 0,0,0
 	attPos0 = -1.77422786,0.0728604048,-0.475402951
-	rot = 0.0922956467,-0.0922955871,-0.701057911,0.701057434
+	rot = 0.0922955871,-0.0922954977,-0.70105809,0.701057315
 	attRot = 0,0,-0.707106769,0.707106769
 	attRot0 = 0.0922959894,-0.0922959521,-0.701057374,0.701057374
 	mir = 1,1,1
@@ -27406,9 +30833,9 @@ PART
 	{
 		tgt = 4287424714
 		tpersID = 1079105921
-		pos = 0.263079464,-0.495032549,0.448554277
-		rot = -4.00383637E-09,0.412069947,0.637469172,0.65102464
-		dir = 0.366425514,-0.689497173,0.624760747
+		pos = 0.263079524,-0.495032489,0.448554337
+		rot = -1.14533911E-08,0.412070304,0.637469709,0.651025176
+		dir = 0.366425574,-0.689497113,0.624760866
 		col = CockpitColBottom
 	}
 	MODULE
@@ -27475,13 +30902,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = Size3SmallTank_4293768938
 	partName = Part
-	persistentId = 3244172990
-	pos = 1.59481597,7.14601326,-0.0708208904
+	persistentId = 1172195545
+	pos = 1.59484887,7.14601326,-0.0708208904
 	attPos = 0,0,0
 	attPos0 = -5.68434189E-14,-4.69999981,-6.8075957E-07
 	rot = 0,1.1920929E-07,-1.36667225E-07,1.00000024
@@ -27546,6 +30989,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = LiquidFuel
@@ -27573,8 +31032,8 @@ PART
 {
 	part = rocketNoseConeSize3_4293768900
 	partName = Part
-	persistentId = 2207869129
-	pos = 1.59492445,6.17901421,-0.0708175525
+	persistentId = 777331853
+	pos = 1.59497166,6.17901421,-0.0708175525
 	attPos = 0,0,0
 	attPos0 = -2.36035529E-08,-0.967000008,1.70530297E-13
 	rot = 1.00000024,-1.36667282E-07,-1.1920929E-07,0
@@ -27637,13 +31096,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = radialDecoupler1-2_4293768838
 	partName = Part
 	persistentId = 2829961266
-	pos = 1.2911973,14.3415899,-1.88196623
+	pos = 1.2912159,14.3415899,-1.88197768
 	attPos = 1.54972076E-06,0,-0.303509474
 	attPos0 = 1.81113768,2.495574,1.66893005E-06
 	rot = -1.56242791E-07,0.707106769,-1.56243189E-07,-0.707107008
@@ -27777,16 +31252,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = Clydesdale_4293768466
 	partName = Part
 	persistentId = 1999556710
-	pos = 1.29119563,11.5415916,-3.39514732
+	pos = 1.29121423,11.5415916,-3.39517021
 	attPos = -1.34969878,-2.93513632,1.25000131
 	attPos0 = -0.163444161,0.135137871,-1.25000095
-	rot = -8.72915962E-09,0.707107008,3.03756707E-07,0.707106769
+	rot = -8.72910277E-09,0.707107008,3.03757076E-07,0.707106769
 	attRot = 0,0.707106709,0,-0.707106709
 	attRot0 = -2.08616271E-07,-1,1.0658139E-13,-1.4210853E-14
 	mir = 1,1,1
@@ -27978,6 +31469,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = SolidFuel
@@ -27995,10 +31502,10 @@ PART
 	part = rocketNoseCone.v3_4293768310
 	partName = Part
 	persistentId = 955411614
-	pos = 1.29121351,22.3416023,-3.39518309
+	pos = 1.29123688,22.3416023,-3.3952179
 	attPos = 0,0,0
 	attPos0 = 2.71797694E-06,10.8000002,1.43051034E-06
-	rot = 2.38418309E-07,2.68220901E-07,-1.5836109E-07,1.00000024
+	rot = 2.38418551E-07,2.68220901E-07,-1.58361104E-07,1.00000024
 	attRot = 0,0,0,1
 	attRot0 = 2.89294405E-07,-0.707106829,-2.47147398E-07,0.707106829
 	mir = 1,1,1
@@ -28080,13 +31587,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = strutConnector_4293768182
 	partName = CompoundPart
 	persistentId = 4024851454
-	pos = 0.728971958,23.6630001,-2.96467543
+	pos = 0.728990078,23.6630001,-2.96470594
 	attPos = 0,0,0
 	attPos0 = -0.56223762,1.3213973,0.430492818
 	rot = -0.0807383358,0.374070615,-0.194919348,0.903083324
@@ -28138,10 +31661,10 @@ PART
 	PARTDATA
 	{
 		tgt = 4293768704
-		tpersID = 1498196501
-		pos = -1.18279445,0.304502308,0.912757039
-		rot = -6.62018484E-09,0.614410162,0.0679042041,0.786060631
-		dir = -0.775732219,0.199706927,0.598628998
+		tpersID = 221658819
+		pos = -1.18279159,0.3045035,0.912755728
+		rot = -1.23413422E-08,0.614410818,0.0679042712,0.786061466
+		dir = -0.775731742,0.199708074,0.598629177
 		col = COL_S
 	}
 	MODULE
@@ -28208,16 +31731,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = sepMotor1_4293767930
 	partName = Part
 	persistentId = 2583948746
-	pos = 1.00297284,22.7644157,-4.47091818
+	pos = 1.00299239,22.7644157,-4.4709568
 	attPos = 0,0,0
 	attPos0 = -0.288239568,0.422813147,-1.07572818
-	rot = -0.96912837,0.0275386199,0.127588272,0.209174037
+	rot = -0.96912837,0.0275385827,0.127588034,0.209174007
 	attRot = 0,0,0.99999994,0
 	attRot0 = -0.969128072,0.0275383107,0.127588302,0.209174082
 	mir = 1,1,1
@@ -28356,6 +31895,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = SolidFuel
@@ -28373,7 +31928,7 @@ PART
 	part = sepMotor1_4293767850
 	partName = Part
 	persistentId = 1853506292
-	pos = 1.29121375,22.796627,-4.51146793
+	pos = 1.29123712,22.796627,-4.51150656
 	attPos = 0,0,0
 	attPos0 = 4.61541987E-07,0.455022752,-1.11627746
 	rot = -0.977490783,1.78813934E-07,-2.68220901E-07,0.210979283
@@ -28515,6 +32070,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = SolidFuel
@@ -28532,10 +32103,10 @@ PART
 	part = sepMotor1_4293767770
 	partName = Part
 	persistentId = 3999274490
-	pos = 1.57440782,22.7992401,-4.45207119
+	pos = 1.57443118,22.7992401,-4.45211124
 	attPos = 0,0,0
 	attPos0 = 0.28319031,0.457636982,-1.05688167
-	rot = -0.96912837,-0.0275380537,-0.127587885,0.209174365
+	rot = -0.96912837,-0.0275380611,-0.127587885,0.20917438
 	attRot = 0,0,0.99999994,0
 	attRot0 = -0.969128072,-0.0275383051,-0.127588212,0.209174037
 	mir = 1,1,1
@@ -28674,6 +32245,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = SolidFuel
@@ -28691,10 +32278,10 @@ PART
 	part = radialDecoupler1-2_4293402202
 	partName = Part
 	persistentId = 269943232
-	pos = 1.29119921,14.3415899,1.74031961
+	pos = 1.29121542,14.3415899,1.74033105
 	attPos = -2.74181366E-06,0,-0.303507328
 	attPos0 = -1.8111378,2.495574,2.38418579E-07
-	rot = -1.56243004E-07,0.707107067,1.56243402E-07,0.707106709
+	rot = -1.56243019E-07,0.707107067,1.56243416E-07,0.707106709
 	attRot = 0,0,0,1
 	attRot0 = -3.21520561E-13,1.19209275E-07,3.1086242E-13,1
 	mir = 1,1,1
@@ -28825,16 +32412,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = Clydesdale_4293402144
 	partName = Part
 	persistentId = 2346915063
-	pos = 1.29119754,11.5415916,3.25350285
+	pos = 1.29121614,11.5415916,3.25352573
 	attPos = -1.34969878,-2.93513632,1.25000131
 	attPos0 = -0.163444161,0.135137871,-1.25000095
-	rot = -3.03756707E-07,0.707106769,8.72907435E-09,0.707107008
+	rot = -3.03756764E-07,0.707106769,8.7291312E-09,0.707107008
 	attRot = 0,0.707106709,0,-0.707106709
 	attRot0 = -2.08616271E-07,-1,1.0658139E-13,-1.4210853E-14
 	mir = 1,1,1
@@ -29026,6 +32629,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = SolidFuel
@@ -29043,10 +32662,10 @@ PART
 	part = rocketNoseCone.v3_4293402040
 	partName = Part
 	persistentId = 2819985565
-	pos = 1.29121566,22.3416023,3.25353861
+	pos = 1.29123831,22.3416023,3.25357652
 	attPos = 0,0,0
 	attPos0 = 2.71797694E-06,10.8000002,1.43051034E-06
-	rot = 1.58361132E-07,1.00000024,-2.3841838E-07,1.78813934E-07
+	rot = 1.58361132E-07,1.00000024,-2.38418352E-07,1.78813934E-07
 	attRot = 0,0,0,1
 	attRot0 = 2.89294405E-07,-0.707106829,-2.47147398E-07,0.707106829
 	mir = 1,1,1
@@ -29128,16 +32747,32 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = strutConnector_4293401974
 	partName = CompoundPart
 	persistentId = 820513018
-	pos = 0.728975296,23.6630001,2.82302952
+	pos = 0.728998184,23.6630001,2.82306004
 	attPos = 0,0,0
 	attPos0 = -0.56223762,1.3213973,0.430492818
-	rot = -0.0807382241,0.374070942,0.194919586,-0.903083146
+	rot = -0.0807382166,0.374071032,0.194919556,-0.903083205
 	attRot = 0,0,0,1
 	attRot0 = -0.0807381868,0.374069571,-0.194919169,0.903083563
 	mir = 1,1,1
@@ -29187,9 +32822,9 @@ PART
 	{
 		tgt = 4293402040
 		tpersID = 2819985565
-		pos = 1.03869497E-05,1.09841085E-05,6.91205605E-06
-		rot = -8.34966158E-08,1.00000083,1.31811539E-08,-3.12690787E-07
-		dir = 0.624863386,0.660787582,0.415818989
+		pos = 1.29977934E-05,1.21662142E-05,7.41780332E-06
+		rot = -8.10442344E-08,1.00000203,1.22543078E-08,-3.24503048E-07
+		dir = 0.67391938,0.630803049,0.384603858
 		col = collider
 	}
 	MODULE
@@ -29256,13 +32891,29 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = sepMotor1_4293401870
 	partName = Part
 	persistentId = 179960808
-	pos = 1.00297642,22.7644157,4.32927227
+	pos = 1.00300074,22.7644157,4.32930851
 	attPos = 0,0,0
 	attPos0 = -0.288239568,0.422813147,-1.07572818
 	rot = -0.127588063,0.209173903,0.96912837,0.0275386125
@@ -29404,6 +33055,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = SolidFuel
@@ -29421,7 +33088,7 @@ PART
 	part = sepMotor1_4293401826
 	partName = Part
 	persistentId = 3089437558
-	pos = 1.29121637,22.796627,4.36982059
+	pos = 1.29124117,22.796627,4.36985493
 	attPos = 0,0,0
 	attPos0 = 4.61541987E-07,0.455022752,-1.11627746
 	rot = 3.57627869E-07,0.210979164,0.977490842,1.34110451E-07
@@ -29563,6 +33230,22 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = SolidFuel
@@ -29580,10 +33263,10 @@ PART
 	part = sepMotor1_4293401782
 	partName = Part
 	persistentId = 3697531504
-	pos = 1.57441044,22.7992401,4.3104248
+	pos = 1.57443476,22.7992401,4.31046486
 	attPos = 0,0,0
 	attPos0 = 0.28319031,0.457636982,-1.05688167
-	rot = 0.127588123,0.209174126,0.96912837,-0.0275380686
+	rot = 0.127588123,0.209174082,0.96912837,-0.0275380164
 	attRot = 0,0,0.99999994,0
 	attRot0 = -0.969128072,-0.0275383051,-0.127588212,0.209174037
 	mir = 1,1,1
@@ -29711,6 +33394,22 @@ PART
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
 		stagingEnabled = True
 		EVENTS
 		{
