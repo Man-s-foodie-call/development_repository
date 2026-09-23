@@ -1,8 +1,6 @@
 
-# ⚠️ ВАЖНО: Прочтите перед началом работы!
+# ⚠️ ВАЖНО: **(Если нужна помощь с Kerbal Space Programm пишите в тг @TimofeyZadirako)**
 
-
-**(Если нужна помощь с Kerbal Space Programm пишите в тг @TimofeyZadirako)**
 
 
 > **Дарова, Бандиты!** 👋
